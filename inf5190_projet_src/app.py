@@ -242,5 +242,5 @@ def installations_tab():
     return render_template('tab.tml')
 
 
-# if __name__ == "__main__":
-# app.run()
+if __name__ == "__main__":
+    app.run()
