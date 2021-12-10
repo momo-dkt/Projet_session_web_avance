@@ -1,1 +1,1 @@
-web: gunicorn app:inf5190_projet_src
+web: gunicorn inf5190_projet_src:app
