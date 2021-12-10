@@ -1,0 +1,312 @@
+ID_UEV,TYPE,NOM,ARRONDISSE,ADRESSE,PROPRIETE,GESTION,POINT_X,POINT_Y,EQUIPEME,LONG,LAT
+3114253,Piscine intérieure,Complexe sportif Claude-Robillard,Ahuntsic-Cartierville,"1 000, Avenue Émile-Journeault Est",Municipale,Municipale,"294151,2717",5045855457,Complexe aquatique,-73.63639,45.552526
+5015454,Pataugeoire,Saint-Jean-Baptiste,Rivière-des-Prairies–Pointe-aux-Trembles,"1 048, Boulevard Saint-Jean-Baptiste",Municipale,Municipale,"304846,2071","5055625,72",,-73.49941,45.640521
+1020721,Piscine intérieure,Centre sportif St-Charles,Le Sud-Ouest,"1 055, Rue Hibernia",Municipale,Municipale,"299867,9341",5037766346,Piscine récréative,-73.563099,45.479802
+1050716,Jeu d'eau,Parc Normand Dawe,Verdun,"1 060, Rue Woodland",Municipale,Municipale,"298647,5623",5034733453,,-73.578667,45.4525
+4030363,Jeu d'eau,Parc Beaulac,Saint-Laurent,"1 145, Rue Élizabeth",Municipale,Municipale,"290934,0231",5042211675,,-73.677489,45.51968
+1050247,Jeu d'eau,Parc Cooney,Verdun,"1 175, Rue Melrose",Municipale,Municipale,"298518,4184",5034953364,,-73.580319,45.454479
+5066716,Jeu d'eau,Parc Harris,Saint-Laurent,"1 365, Avenue O’Brien",Municipale,Municipale,"290338,3295",5042146839,,-73.685116,45.519083
+4039115,Piscine extérieure,Parc Ouellette (natation et récréatif),LaSalle,"1 407, Rue Serre",Municipale,Privé,"295254,0967",5032569894,,-73.622005,45.432989
+4156343,Piscine intérieure,L’Aquadôme LaSalle,LaSalle,"1 411, Rue Lapierre",Municipale,Privé,"296335,6987",5032962552,Complexe aquatique,-73.608196,45.43654
+1027502,Pataugeoire,Parc La Fontaine ouest,Le Plateau-Mont-Royal,"1 450, Rue Rachel Est",Municipale,Municipale,"299382,7103","5042884,97",,-73.56936,45.525852
+5016554,Piscine extérieure,Parc Hartenstein,Saint-Laurent,"1 505, Rue Cardinal",Municipale,Municipale,"289936,1662",5042046109,,-73.690259,45.518174
+5016554,Pataugeoire,Parc Hartenstein,Saint-Laurent,"1 505, Rue Cardinal",Municipale,Municipale,"289849,7238",5042125157,,-73.691375,45.518883
+5016554,Jeu d'eau,Parc Hartenstein,Saint-Laurent,"1 505, Rue Cardinal",Municipale,Municipale,"289888,1774",5041938969,,-73.69087,45.517202
+1018523,Piscine intérieure,Bain Quintal,Ville-Marie,"1 550, Rue Dufresne",Municipale,Municipale,"300975,7246",5043217592,Piscine récréative,-73.548969,45.52886
+3069220,Pataugeoire,Parc Père-Marquette,Rosemont–La Petite-Patrie,"1 555, Rue des Carrières",Municipale,Municipale,"297740,6679",5044324939,,-73.590401,45.538795
+5103407,Piscine intérieure,Centre sportif Père-Marquette,Rosemont–La Petite-Patrie,"1 600, Rue Drucourt",Municipale,Municipale,"298337,0379",5045796851,Piscine récréative,-73.582776,45.552047
+2064425,Pataugeoire,Parc St-Aloysius,Mercier–Hochelaga-Maisonneuve,"1 650, Avenue Valois",Municipale,Municipale,"301628,1089",5045103194,,-73.540621,45.545834
+1116730,Jeu d'eau,Parc de La Reine Élizabeth,Verdun,"1 650, Rue Crawford",Municipale,Municipale,"297575,3881",5033164482,,-73.592349,45.438371
+5071428,Pataugeoire,Parc des Vétérans,Ville-Marie,"1 655, Avenue Papineau",Municipale,Municipale,"300488,5129",5042717424,,-73.5552,45.524357
+3021351,Piscine extérieure,Marcelin-Wilson,Ahuntsic-Cartierville,"1 655, Rue Dudemaine, H3M 1R2",Municipale,Municipale,"290413,3232",5044137201,,-73.684215,45.537
+4099482,Jeu d'eau,Parc Goulet,Saint-Laurent,"1 695, Rue d’Oxford",Municipale,Municipale,"289041,7102",5042480411,,-73.701729,45.52206
+5061272,Piscine extérieure,Port de Plaisance,Lachine,"1 800, Chemin des Iroquois",Municipale,OBNL,"290986,3256",5032227781,,-73.676543,45.42984
+5006029,Piscine intérieure,Centre sportif Petite-Bourgogne,Le Sud-Ouest,"1 825, Rue Notre-Dame Ouest",Municipale,OBNL,"299389,6801",5038717468,Piscine récréative,-73.569224,45.488356
+5056523,Piscine extérieure,Parc Duff-Court,Lachine,"1 830, Croissant Roy",Municipale,Municipale,"290670,4398",5034129795,,-73.680636,45.446949
+5056523,Pataugeoire,Parc Duff-Court,Lachine,"1 830, Croissant Roy",Municipale,Municipale,"290670,4398",5034129795,,-73.680636,45.446949
+2051168,Jeu d'eau,Parc Beauclerk,Mercier–Hochelaga-Maisonneuve,"1 855, Avenue Émile-Legrand",Municipale,Municipale,"303213,3204",5049008241,,-73.520336,45.580978
+2020120,Pataugeoire,Parc St-Clément,Mercier–Hochelaga-Maisonneuve,"1 855, Rue de Ville-Marie",Municipale,Municipale,302173727,5046691598,,-73.533651,45.560125
+2063743,Piscine intérieure,Hochelaga,Mercier–Hochelaga-Maisonneuve,"1 870, Rue Davidson",Municipale,Municipale,"301319,5393",5044694075,Piscine compétitive,-73.544576,45.542152
+2065901,Piscine intérieure,Bain Morgan,Mercier–Hochelaga-Maisonneuve,"1 875, Avenue Morgan",Municipale,Municipale,"301810,6112",5045950116,Piscine récréative,-73.538296,45.553456
+2024523,Pataugeoire,Parc Rougemont,Mercier–Hochelaga-Maisonneuve,"1 900, Rue Bossuet",Municipale,Municipale,"302644,7225",5047717807,,-73.527622,45.569359
+5060035,Pataugeoire,Parc Lasalle 1,Lachine,"1 950, Remembrance",Municipale,Municipale,"291104,1199",5033162161,,-73.675061,45.438256
+5060035,Pataugeoire,Parc Lasalle 2,Lachine,"1 950, Remembrance",Municipale,Municipale,"291104,1199",5033162161,,-73.675061,45.438256
+1008171,Pataugeoire,Parc Campbell-Ouest,Le Sud-Ouest,"1 990, Rue de Maricourt",Municipale,Municipale,"297630,3466",5035340982,,-73.591678,45.457952
+5072841,Piscine extérieure,Complexe aquatique – Société du parc Jean-Drapeau,Ville-Marie,"1, Circuit Gilles-Villeneuve,",Municipale,Parapublique,"302127,3302",5041516018,Île Sainte-Hélène,-73.534212,45.513559
+5072841,Piscine extérieure,Complexe aquatique – Société du parc Jean-Drapeau,Ville-Marie,"1, Circuit Gilles-Villeneuve,",Municipale,Parapublique,"302127,3302",5041516018,Île Sainte-Hélène,-73.534212,45.513559
+2070718,Pataugeoire,Parc Sabrevois,Montréal-Nord,"10 110, Avenue des Récollets",Municipale,Municipale,"294408,9079",5049300149,,-73.633172,45.583529
+2068769,Piscine extérieure,Parc Ottawa,Montréal-Nord,"10 341, Avenue Lausanne",Municipale,Municipale,293670906,5049138004,,-73.642625,45.58206
+2068769,Pataugeoire,Parc Ottawa,Montréal-Nord,"10 400, Avenue Belleville",Municipale,Municipale,293670906,5049138004,,-73.642625,45.58206
+2068769,Jeu d'eau,Parc Ottawa,Montréal-Nord,"10 400, Avenue Belleville",Municipale,Municipale,293670906,5049138004,,-73.642625,45.58206
+2068113,Pataugeoire,Parc Oscar,Montréal-Nord,"10 660, Boulevard Saint-Michel",Municipale,Municipale,"293219,8302",5049150275,,-73.648405,45.582161
+3116265,Piscine intérieure,Sophie-Barat,Ahuntsic-Cartierville,"10 851, Rue Saint-Charles, H2C 3H7",Municipale,Municipale,"291703,7809",5046899148,Piscine compétitive,-73.667771,45.561879
+2076909,Piscine extérieure,Parc Charleroi,Montréal-Nord,"10 975, Avenue Alfred",Municipale,Municipale,"295260,6871",5051093663,,-73.622288,45.599675
+2076909,Pataugeoire,Parc Charleroi,Montréal-Nord,"10 975, Avenue Alfred",Municipale,Municipale,"295260,6871",5051093663,,-73.622288,45.599675
+5073228,Piscine extérieure,Parc Arthur-Therrien,Verdun,"10, Rue Hickson",Municipale,Municipale,"299989,1927",5036132148,,-73.561523,45.465099
+5073228,Pataugeoire,Parc Arthur-Therrien,Verdun,"10, Rue Hickson",Municipale,Municipale,"299428,7771",5034263288,,-73.568677,45.448277
+0,Pataugeoire,Pataugeoire du Sault-au-récollet,Ahuntsic-Cartierville,10550 rue St-Firmin,,,"292697,7281",5047948679,,-73.655064,45.571336
+0,"Pataugeoire, Jeux d'eau",Pataugeoire Ahuntsic,Ahuntsic-Cartierville,10555 rue Lajeunesse,,,"291891,1168",5046147865,,-73.665343,45.555115
+1051139,Jeu d'eau,Parc Wilson,Verdun,"1075-A, Avenue Brown",Municipale,Municipale,298598757,5034296841,,-73.579288,45.448567
+2070945,Pataugeoire,Parc Pilon,Montréal-Nord,"11 135, Avenue des Récollets",Municipale,Municipale,"293702,5631",5050411397,,-73.642244,45.593515
+2080320,Pataugeoire,Parc Le Carignan,Montréal-Nord,"11 481, Rue P.M.-Favier",Municipale,Municipale,"295783,9769",5052255545,,-73.615606,45.610138
+2077664,Piscine extérieure,Parc Saint-Laurent,Montréal-Nord,"11 614, Avenue Salk",Municipale,Municipale,"294754,4465",5051730244,,-73.628788,45.6054
+2077664,Pataugeoire,Parc Saint-Laurent,Montréal-Nord,"11 614, Avenue Salk",Municipale,Municipale,"294754,4465",5051730244,,-73.628788,45.6054
+5029269,Piscine intérieure,Piscine intérieure Roussin,Rivière-des-Prairies–Pointe-aux-Trembles,"12 125, Rue Notre-Dame Est",Municipale,Municipale,"305485,4766",5055655173,Piscine récréative,-73.491213,45.640791
+2081040,Pataugeoire,Parc Monty,Montréal-Nord,"12 357, Avenue Monty",Municipale,Municipale,"295458,2261",5053477193,,-73.619796,45.62113
+5072848,Piscine intérieure,Centre aquatique Rivières-des-Prairies,Rivière-des-Prairies–Pointe-aux-Trembles,"12 515, Boulevard Rodolphe-Forget",Municipale,Municipale,"298578,6641",5056952178,Complexe aquatique,-73.579832,45.652434
+5070958,Piscine extérieure,Parc Alexis-Carrel,Rivière-des-Prairies–Pointe-aux-Trembles,"12 550, Avenue Alexis-Carrel",Municipale,Municipale,"297878,4231","5056038,26",,-73.5888,45.644203
+5070958,Pataugeoire,Parc Alexis-Carrel,Rivière-des-Prairies–Pointe-aux-Trembles,"12 550, Avenue Alexis-Carrel",Municipale,Municipale,"297878,4231","5056038,26",,-73.5888,45.644203
+2079610,Pataugeoire,Parc Lacordaire,Montréal-Nord,"12 576, Boulevard Lacordaire",Municipale,Municipale,"294499,0455","5052934,31",,-73.632082,45.61623
+0,"Pataugeoire, Jeux d'eau",Pataugeoire de Mésy,Ahuntsic-Cartierville,12120 rue Grenet,,,"287810,6816",5043384178,,-73.717518,45.530166
+0,Piscine extérieure,Piscine briarwood,Pierrefonds-Roxborro,12421 rue Pavillon,,,"278571,0301",5041552741,,-73.835702,45.513394
+2079739,Piscine extérieure,Parc Saint-Georges,Rivière-des-Prairies–Pointe-aux-Trembles,"13 050, Rue Prince-Albert",Municipale,Municipale,"305389,3259",5057137776,,-73.492443,45.654126
+2079739,Pataugeoire,Parc St-Georges,Rivière-des-Prairies–Pointe-aux-Trembles,"13 050, Rue Prince-Albert",Municipale,Municipale,"305389,3259",5057137776,,-73.492443,45.654126
+2072528,Piscine extérieure,Parc Richelieu,Rivière-des-Prairies–Pointe-aux-Trembles,"13 600, Rue Forsyth",Municipale,Municipale,"304425,0067",5058203099,,-73.504812,45.663718
+2072528,Pataugeoire,Parc Richelieu,Rivière-des-Prairies–Pointe-aux-Trembles,"13 600, Rue Forsyth",Municipale,Municipale,"304425,0067",5058203099,,-73.504812,45.663718
+0,Piscine extérieure,Piscine Versailles,Pierrefonds-Roxborro,13207 rue Desjardins,,,"277550,0531",5041379655,,-73.84876,45.511799
+0,Jeux d'eau,Jeux d'eau Saint-Jacques,Ville-Marie,1360 rue Saint-Jacques,,,299536228,"5039257,29",,-73.567349,45.493216
+1021708,Jeu d'eau,Parc Toussaint-Louverture,Ville-Marie,137 Boulevard de Maisonneuve,Municipale,Municipale,"299739,8542",5041399457,,-73.564774,45.512492
+4039115,Jeu d'eau,Parc Ouelette,LaSalle,"1407, Rue Serre",Municipale,Privé,"295254,0967",5032569894,,-73.622005,45.432989
+0,Piscine intérieure,Piscine du YMCA Centre-Ville,Ville-Marie,1440 rue Stanley,,,298974303,5039975909,,-73.574548,45.499673
+2077340,Jeu d'eau,Parc Montmartre,Rivière-des-Prairies–Pointe-aux-Trembles,"14555, rue de Montigny",Municipale,Municipale,"304974,3777",5059549579,,-73.497767,45.67583
+0,Piscine extérieure,Piscine Thorndale,Pierrefonds-Roxborro,14921 rue Oakwood,,,"276942,6222","5037290,6",,-73.856309,45.474981
+4084462,Piscine extérieure,Parc Robert-Sauvé,L'Île-Bizard–Sainte-Geneviève,"15 734, Rue de la Caserne, Sainte-Geneviève",Municipale,Municipale,"276130,5669",5037974506,,-73.866735,45.481102
+4084462,Pataugeoire,Parc Robert-Sauvé,L'Île-Bizard–Sainte-Geneviève,"15 734, Rue de la Caserne, Sainte-Geneviève",Municipale,Municipale,"276130,5669",5037974506,,-73.866735,45.481102
+5054431,Piscine extérieure,Parc Kirkland,Lachine,"150, Rue des Érables",Municipale,Municipale,"293083,0154",5034007493,,-73.649786,45.445896
+5054431,Jeu d'eau,Parc Kirkland,Lachine,"150, Rue des Érables",Municipale,Municipale,"293083,0154",5034007493,,-73.649786,45.445896
+0,"Piscine extérieure, Jeux d'eau",Piscine Marcelin-Wilson,Ahuntsic-Cartierville,1655 rue Dudemaine,,,"290043,0149",5044389975,,-73.68896,45.53926
+4127635,Piscine extérieure,Parc Haymard,LaSalle,"170, Avenue Orchard",Municipale,Privé,"293208,1671",5031500121,,-73.648129,45.423339
+4127635,Jeu d'eau,Parc Hayward,LaSalle,"170, Avenue Orchard",Municipale,Privé,"293208,1671",5031500121,,-73.648129,45.423339
+4029051,Jeu d'eau,Parc Houde,Saint-Laurent,"2 100, Rue Saint-Louis",Municipale,Municipale,290675397,5040136425,,-73.680745,45.501003
+5015690,Piscine extérieure,Parc Marlborough,Saint-Laurent,"2 105, Rue Beauzèle",Municipale,Municipale,"287570,3008",5042655268,,-73.720565,45.5236
+5015690,Pataugeoire,Parc Malborough,Saint-Laurent,"2 105, Rue Beauzèle",Municipale,Municipale,"287530,7419",5042529966,,-73.721073,45.522465
+5015690,Jeu d'eau,Parc Marlborough,Saint-Laurent,"2 105, Rue Beauzèle",Municipale,Municipale,"287626,9008",5042532366,,-73.719844,45.522494
+2051891,Pataugeoire,Parc de la Bruère,Mercier–Hochelaga-Maisonneuve,"2 150, Rue Liébert",Municipale,Municipale,"303352,2138",5050433239,,-73.518559,45.5938
+5037561,Pataugeoire,Parc Médéric-Martin,Ville-Marie,"2 255, Rue du Havre",Municipale,Municipale,"300608,0475",5043834452,,-73.553673,45.534409
+1034674,Piscine intérieure,Centre du Plateau,Le Plateau-Mont-Royal,"2 275, Boulevard St-Joseph",Municipale,Municipale,298926669,5044373814,Piscine récréative,-73.575215,45.539247
+5070879,Pataugeoire,Parc Raymond-Préfontaine,Mercier–Hochelaga-Maisonneuve,"2 300, Rue Dézéry",Municipale,Municipale,"300696,0489",5044650821,,-73.552553,45.541753
+5037532,Pataugeoire,Olivier-Robert,Ville-Marie,"2 325, Boulevard de Maisonneuve Est",Municipale,Municipale,"300924,1231",5043167657,,-73.549622,45.528409
+1026261,Piscine extérieure,Parc Baldwin,Le Plateau-Mont-Royal,"2 330, Rue Rachel Est",Municipale,Municipale,"299849,2929",5043868315,,-73.563391,45.53471
+1026261,Pataugeoire,Parc Baldwin,Le Plateau-Mont-Royal,"2 330, Rue Rachel Est",Municipale,Municipale,"299849,2929",5043868315,,-73.563391,45.53471
+1026261,Jeu d'eau,Parc Baldwin,Le Plateau-Mont-Royal,"2 330, rue Rachel Est",Municipale,Municipale,"299849,2929",5043868315,,-73.563391,45.53471
+3023745,Piscine extérieure,Gabriel-Lalemant,Ahuntsic-Cartierville,"2 350, Rue Sauvé Est, H2B 1B2",Municipale,Municipale,"293681,7773",5047876482,,-73.642456,45.570705
+1020818,Pataugeoire,Parc Saint-Gabriel,Le Sud-Ouest,"2 355, Rue Mullins",Municipale,Municipale,"299758,9738",5037666336,,-73.564493,45.478901
+1027502,Pataugeoire,Parc La Fontaine est,Le Plateau-Mont-Royal,"2 450, Rue Rachel Est",Municipale,Municipale,"299382,7103","5042884,97",,-73.56936,45.525852
+5089063,Jeu d'eau,Parc Théodore,Mercier–Hochelaga-Maisonneuve,"2 525, Rue Théodore",Municipale,Municipale,"301366,8682",5046788597,,-73.543988,45.560995
+2008973,Piscine extérieure,Parc Le Pélican,Rosemont–La Petite-Patrie,"2 560, Rue Masson",Municipale,Municipale,"298993,5628",5044898465,,-73.574363,45.543972
+2008973,Pataugeoire,Parc Pélican,Rosemont–La Petite-Patrie,"2 560, Rue Masson",Municipale,Municipale,"298993,5628",5044898465,,-73.574363,45.543972
+5037561,Piscine intérieure,Jean-Claude-Malépart,Ville-Marie,"2 633, Rue Ontario Est",Municipale,OBNL,"300608,0475",5043834452,Piscine compétitive,-73.553673,45.534409
+4157130,Piscine extérieure,Parc Noël-Nord,Saint-Laurent,"2 900, Rue Baker",Municipale,Municipale,"286990,7657",5042002465,,-73.727966,45.51771
+4157130,Pataugeoire,Parc Noël-Nord,Saint-Laurent,"2 900, Rue Baker",Municipale,Municipale,"286977,6179",5041892154,,-73.728128,45.516719
+4157130,Jeu d'eau,Parc Noël-Nord,Saint-Laurent,"2 900, rue Baker",Municipale,Municipale,286879966,5041958921,,-73.729385,45.517311
+4032625,Pataugeoire,Parc Alexis-Nihon,Saint-Laurent,"2 999, Rue Badeaux",Municipale,Municipale,"289920,3954",5039729605,,-73.690393,45.497325
+3123106,Piscine extérieure,Parc Jarry,Villeray–Saint-Michel–Parc-Extension,"205, Rue Faillon Ouest",Municipale,Municipale,"294739,0881","5043921,28",,-73.628819,45.535132
+1035819,Jeu d'eau,Parc Louis-Cyr,Le Sud-Ouest,"205, Rue Saint-Ferdinand",Municipale,Municipale,"298387,8063",5037338695,,-73.582025,45.475939
+0,Piscine intérieure,Piscine Association sportive et communautaire Centre-S,Ville-Marie,2093 de la Visitation,,,"299903,3359",5042550548,,-73.562687,45.522851
+2011547,Jeu d'eau,Parc Étienne-Desmarteau,Rosemont–La Petite-Patrie,20e Avenue / Rue Beaubien Est,Municipale,Municipale,"298533,3149",5046592138,,-73.580276,45.559211
+0,Plage,Plage du cap Saint-Jacques,Pierrefonds-Roxborro,21 115 boul Gouin ouest,,,"270202,8135",5035872453,,-73.942413,45.46192
+0,Jeux d'eau,Jeux d'eau St-André-Apôtre,Ahuntsic-Cartierville,215 Prieur Ouest,,,"291475,4592",5045137048,,-73.670644,45.546019
+0,Piscine intérieure,Piscine du Vieux-Montréal,Ville-Marie,255 rue Ontario est,,,"299607,0563",5041572973,,-73.566465,45.514048
+0,Jeux d'eau,Jeux d'eau St-Simon-Apôtre,Ahuntsic-Cartierville,260 rue Legendre O,,,"293178,8526",5044454912,,-73.648819,45.539904
+5087211,Piscine extérieure,Parc Elgar,Verdun,"260, Rue Elgar",Municipale,Municipale,"301054,5703",5035265394,,-73.547897,45.457304
+5087211,Pataugeoire,Parc Elgar,Verdun,"260, Rue Elgar",Municipale,Municipale,"300594,0254",5035019351,,-73.553777,45.455088
+5082586,Piscine extérieure,Parc Painter,Saint-Laurent,"260, Rue Marcotte",Municipale,Municipale,"291051,1904",5043134284,,-73.676018,45.527988
+5082586,Pataugeoire,Parc Painter,Saint-Laurent,"260, Rue Marcotte",Municipale,Municipale,"291095,7066",5043264457,,-73.675458,45.529158
+5082586,Jeu d'eau,Parc Painter,Saint-Laurent,"260, rue Marcotte",Municipale,Municipale,"290955,6502",5043241505,,-73.67725,45.528948
+5015687,Piscine extérieure,Parc Bourbonnière,Saint-Laurent,"2800, Rue Cazeneuve",Municipale,Municipale,"288959,4085",5040233074,,-73.702706,45.501839
+5015687,Pataugeoire,Parc Bourbonnière,Saint-Laurent,"2800, Rue Cazeneuve",Municipale,Municipale,"288998,5467",5040326033,,-73.70221,45.502677
+2145363,Pataugeoire,Parc Pierre-Bernard,Mercier–Hochelaga-Maisonneuve,"3 170, Boulevard Pierre-Bernard",Municipale,Municipale,"302830,7633",5051697441,,-73.525255,45.605173
+5071905,Pataugeoire,Parc Lafond,Rosemont–La Petite-Patrie,"3 500, Avenue Laurier Est",Municipale,Municipale,"299478,4815",5045795841,,-73.568162,45.552047
+3006474,Pataugeoire,Parc de Kent,Côte-des-Neiges–Notre-Dame-de-Grâce,"3 533, Avenue de Kent",Municipale,Municipale,"294480,4208",5040457946,,-73.632063,45.503958
+3006474,Jeu d'eau,Parc de Kent,Côte-des-Neiges–Notre-Dame-de-Grâce,"3 533, Avenue de Kent",Municipale,Municipale,"294480,4208",5040457946,,-73.632063,45.503958
+5073228,Jeu d'eau,Parc Arthur-Therrien,Verdun,"3 750, Boulevard Gaétan-Laberge",Municipale,Municipale,"299428,7771",5034263288,,-73.568677,45.448277
+2083497,Pataugeoire,Parc Ménard,Montréal-Nord,"3 781, Place Ménard",Municipale,Municipale,"293891,0207",5049690967,,-73.639806,45.587031
+1041817,Piscine intérieure,Bain Schubert,Le Plateau-Mont-Royal,"3 950, Boulevard Saint-Laurent",Municipale,Municipale,298644329,5041840169,Piscine récréative,-73.578794,45.516452
+4143045,Piscine extérieure,Parc Ménard,LaSalle,"300, Rue Clément",Municipale,Privé,"292815,8028",5032646392,,-73.653179,45.433645
+5019334,Jeu d'eau,Parc Poirier,Verdun,3215 boul Lasalle,Municipale,Municipale,"299396,4767",5036784661,,-73.569113,45.470962
+0,Piscine extérieure,Piscine Pierrefonds park,Pierrefonds-Roxborro,355 chemin Rive-Boisée,,,"277188,5376",5040003172,,-73.853316,45.499403
+0,Jeu d'eau,Parc Des Pins,Rivière-des-Prairies–Pointe-aux-Trembles,3995 Rue 42e,Municipale,Municipale,"303514,0623",5058559893,,-73.516504,45.66692
+1123220,Piscine intérieure,Piscine intérieure Saint-Henri,Le Sud-Ouest,"4 055, Rue St-Jacques",Municipale,Municipale,"297967,0348",5037586499,Piscine compétitive,-73.5874,45.478166
+5052735,Pataugeoire,Parc Carignan,Lachine,"4 100, Rue Provost",Municipale,Municipale,"288993,9524",5033747338,,-73.702062,45.443476
+2145385,Pataugeoire,Parc De Sienne,Villeray–Saint-Michel–Parc-Extension,"4 151, Rue 53e",Municipale,Municipale,"294960,3328","5049199,9",,-73.626096,45.582628
+1003664,Pataugeoire,Parc Jeanne-Mance,Le Plateau-Mont-Royal,"4 167, Avenue de l’Esplanade",Municipale,Municipale,"297684,1752",5040632413,,-73.591064,45.505573
+2083978,Piscine extérieure,Parc Primeau,Montréal-Nord,"4 209, Rue de Castille",Municipale,Municipale,"294182,9617",5050367533,,-73.636091,45.593127
+2083978,Pataugeoire,Parc Primeau,Montréal-Nord,"4 209, Rue de Castille",Municipale,Municipale,"294182,9617",5050367533,,-73.636091,45.593127
+2017640,Piscine intérieure,René-Goupil,Villeray–Saint-Michel–Parc-Extension,"4 250, Rue du Parc-René-Goupil",Municipale,Municipale,"296151,4725",5048669049,Piscine récréative,-73.610824,45.577875
+2017640,Pataugeoire,Parc René-Goupil,Villeray–Saint-Michel–Parc-Extension,"4 250, Rue du Parc-René-Goupil",Municipale,Municipale,"296249,3471",5048618304,,-73.609568,45.577418
+5089500,Piscine extérieure,Maisonneuve,Mercier–Hochelaga-Maisonneuve,"4 350, Rue de Rouen",Municipale,Privé,"301520,9715",5046038005,,-73.542011,45.554247
+5089500,Pataugeoire,Maisonneuve,Mercier–Hochelaga-Maisonneuve,"4 350, Rue de Rouen",Municipale,Privé,"301520,9715",5046038005,,-73.542011,45.554247
+2071510,Jeu d'eau,Parc Morgan,Mercier–Hochelaga-Maisonneuve,"4 370, Rue Sainte-Catherine Est",Municipale,Municipale,"302221,9549",5045723134,,-73.533031,45.551415
+2088720,Jeu d'eau,Parc Luigi Pirandello,Saint-Léonard,"4 550, Rue de Compiègne",Municipale,Privé,"296721,1839",5048699381,,-73.603521,45.578152
+1046323,Piscine extérieure,Parc Sir George-Étienne-Cartier,Le Sud-Ouest,"4 550, Rue Sainte-Émilie",Municipale,Municipale,"298045,6165",5037056587,,-73.586395,45.473398
+2084556,Pataugeoire,Parc Sauvé,Montréal-Nord,"4 701, Rue de Bayonne",Municipale,Municipale,294162877,5051110104,,-73.636364,45.599812
+2092471,Jeu d'eau,Parc Coubertin,Saint-Léonard,"4 755, Rue Valéry",Municipale,Privé,296256853,5049470966,,-73.609493,45.585084
+5005023,Piscine intérieure,Centre sportif Côte-des-Neiges,Côte-des-Neiges–Notre-Dame-de-Grâce,"4 880, Avenue Van Horne",Municipale,OBNL,"294009,0706",5039206095,Complexe aquatique,-73.638062,45.492694
+3007015,Pataugeoire,Parc Van Horne,Côte-des-Neiges–Notre-Dame-de-Grâce,"4 900, Avenue Van Horne",Municipale,Municipale,"293956,4134",5039088994,,-73.638738,45.491631
+3073051,Jeu d'eau,Parc Mackenzie-King,Côte-des-Neiges–Notre-Dame-de-Grâce,"4 905, Avenue Saint-Kevin",Municipale,Municipale,"294352,7698",5038897595,,-73.633667,45.489919
+5126259,Piscine intérieure,St-Roch,Villeray–Saint-Michel–Parc-Extension,"400, Avenue Ball",Municipale,Privé,"294567,6056",5043571606,Piscine récréative,-73.631014,45.53198
+5073228,Jeu d'eau,Parc de l’Honorable-George-O’Reilly,Verdun,"4390-4400, Boul Lasalle",Municipale,Municipale,"299428,7771",5034263288,,-73.568677,45.448277
+0,Piscine extérieure,Piscine Valleycrest,Pierrefonds-Roxborro,4600 rue Cageux,,,"275004,0857",5035394197,,-73.880981,45.45784
+5033990,Pataugeoire,Parc Le Ber,Le Sud-Ouest,"470, Rue Fortune",Municipale,Municipale,"300569,5609",5037485349,,-73.554118,45.477278
+5060035,Piscine extérieure,Parc Lasalle,Lachine,"475, 10e Avenue",Municipale,Municipale,"291104,1199",5033162161,,-73.675061,45.438256
+5082406,Piscine extérieure,Parc Maria-Goretti,Rivière-des-Prairies–Pointe-aux-Trembles,"488, 85e Avenue",Municipale,Municipale,"305791,8604",5061314139,,-73.487276,45.691711
+5082406,Pataugeoire,Parc Maria-Goretti,Rivière-des-Prairies–Pointe-aux-Trembles,"488, 85e Avenue",Municipale,Municipale,"305791,8604",5061314139,,-73.487276,45.691711
+4053724,Piscine extérieure,Parc Eugène-D’Ostie,L'Île-Bizard–Sainte-Geneviève,"488, Montée de l’Église, L'Île-Bizard",Municipale,Municipale,"274821,8474",5038563963,,-73.883515,45.486348
+4053724,Pataugeoire,Parc Eugène-D’Ostie,L'Île-Bizard–Sainte-Geneviève,"488, Montée de l’Église, L'Île-Bizard",Municipale,Municipale,"274821,8474",5038563963,,-73.883515,45.486348
+3042233,Jeu d'eau,Parc Nelson Mandela,Côte-des-Neiges–Notre-Dame-de-Grâce,"4920, Rue Vézina",Municipale,Municipale,"293549,2598",5039448798,,-73.643953,45.494864
+5073228,Jeu d'eau,Parc Mgr J.A. Richard,Verdun,"5 040, Boulevard LaSalle",Municipale,Municipale,"299428,7771",5034263288,,-73.568677,45.448277
+3040406,Jeu d'eau,Parc de la Savanne,Côte-des-Neiges–Notre-Dame-de-Grâce,"5 111, Rue Paré",Municipale,Municipale,"292702,3142","5039879,71",,-73.654801,45.498728
+2090635,Piscine intérieure,Piscine intérieure de Saint-Léonard,Saint-Léonard,"5 115, Rue des Galets",Municipale,Privé,"297141,8069",5049498419,Complexe aquatique,-73.598152,45.585346
+2094987,Piscine extérieure,Parc Pie XII,Saint-Léonard,"5 200, Boulevard Lavoisier",Municipale,Privé,"296410,0821",5049848472,,-73.607526,45.588487
+2094987,Pataugeoire,Parc Pie XII,Saint-Léonard,"5 200, Boulevard Lavoisier",Municipale,Privé,"296410,0821",5049848472,,-73.607526,45.588487
+1028133,Piscine extérieure,Parc Sir Wilfrid-Laurier,Le Plateau-Mont-Royal,"5 200, Rue De Brébeuf",Municipale,Municipale,"297940,1453",5043583508,,-73.58783,45.53213
+1028133,Pataugeoire,Parc Sir Wilfrid-Laurier,Le Plateau-Mont-Royal,"5 200, Rue De Brébeuf",Municipale,Municipale,"297940,1453",5043583508,,-73.58783,45.53213
+2010590,Pataugeoire,Parc Cité-Jardin,Rosemont–La Petite-Patrie,"5 220, Boulevard Rosemont",Municipale,Municipale,"299962,0804",5047932727,,-73.561985,45.57128
+3074458,Pataugeoire,Parc Jean-Brillant,Côte-des-Neiges–Notre-Dame-de-Grâce,"5 252, Avenue Decelles",Municipale,Municipale,"295437,9104","5039676,14",,-73.619801,45.496944
+3074458,Jeu d'eau,Parc Jean-Brillant,Côte-des-Neiges–Notre-Dame-de-Grâce,"5 252, Avenue Decelles",Municipale,Municipale,"295437,9104","5039676,14",,-73.619801,45.496944
+3065293,Piscine intérieure,Centre communautaire Notre-Dame-de-Grâce,Côte-des-Neiges–Notre-Dame-de-Grâce,"5 311, Chemin de la Côte-Saint-Antoine",Municipale,Municipale,"295898,1254",5037368988,Piscine récréative,-73.613861,45.476181
+3033630,Pataugeoire,Parc McDonald,Côte-des-Neiges–Notre-Dame-de-Grâce,"5 355, Avenue Clanranald",Municipale,Municipale,"294163,3637",5038216469,,-73.636071,45.483788
+5007586,Piscine intérieure,Complexe sportif Gadbois,Le Sud-Ouest,"5 485, Chemin De la Côte-Saint-Paul",Municipale,Municipale,"297313,4215",5036328297,Piscine compétitive,-73.595746,45.46684
+2164916,Piscine extérieure,Parc Chénier,Anjou,"5 555, Avenue de l’Aréna",Municipale,Privé,301422701,5051453457,,-73.543303,45.602972
+2164916,Pataugeoire,Parc Chénier,Anjou,"5 555, Avenue de l’Aréna",Municipale,Privé,301422701,5051453457,,-73.543303,45.602972
+2067929,Pataugeoire,Léon-Provencher,Rosemont–La Petite-Patrie,"5 555, Boulevard Pie-IX",Municipale,Municipale,"299808,6205",5046893887,,-73.563947,45.56193
+2055025,Pataugeoire,Parc Pierre-Bédard,Mercier–Hochelaga-Maisonneuve,"5 855, Rue Turenne",Municipale,Municipale,"300513,0846",5048665368,,-73.554932,45.57788
+1129831,Piscine extérieure,Parc Ignace-Bourget,Le Sud-Ouest,"5 925, Avenue De Montmagny",Municipale,Municipale,"296402,7493",5035017941,,-73.607374,45.455032
+0,Piscine extérieure,Piscine Roxboro,Pierrefonds-Roxborro,51 ave Georges-Vanier,,,"280585,3356",5041060784,,-73.809902,45.50904
+4049099,Piscine extérieure,Parc Lacharité,LaSalle,"55, Avenue Latour",Municipale,Privé,"295203,7654",5030924055,,-73.622624,45.418186
+1053978,Piscine extérieure,Parc de la Fontaine,Verdun,"550, Place de la Fontaine",Municipale,Municipale,"301305,8553",5035965042,,-73.544693,45.463605
+1053978,Pataugeoire,Parc de la Fontaine,Verdun,"550, Place de la Fontaine",Municipale,Municipale,"301305,8553",5035965042,,-73.544693,45.463605
+1048440,Pataugeoire,Parc Vinet,Le Sud-Ouest,"550, Rue Vinet",Municipale,Municipale,"298878,1523",5038234701,,-73.575756,45.484006
+4045983,Piscine extérieure,Parc Raymond,LaSalle,"555, Boulevard Bishop-Power",Municipale,Privé,296731981,5032023632,,-73.603119,45.428095
+2095006,Piscine extérieure,Parc Ferland,Saint-Léonard,"6 020, Boulevard Lavoisier",Municipale,Privé,"297176,1447",5050736338,,-73.597723,45.596487
+2095006,Jeu d'eau,Parc Ferland,Saint-Léonard,"6 020, Boulevard Lavoisier",Municipale,Privé,"297176,1447",5050736338,,-73.597723,45.596487
+2020249,Pataugeoire,Parc De L’Ukraine,Rosemont–La Petite-Patrie,"6 041, 12e Avenue",Municipale,Municipale,"298363,3005",5046145185,,-73.582448,45.555187
+2091811,Jeu d'eau,Parc Delorme,Saint-Léonard,"6 060, Rue de Honfleur",Municipale,Privé,"297848,3497",5050148451,,-73.589101,45.591203
+5088615,Piscine intérieure,Bain Émard,Le Sud-Ouest,"6 071, Rue Laurendeau",Municipale,Municipale,"297803,5283","5035323,57",Piscine récréative,-73.589466,45.457801
+2054519,Piscine intérieure,Édouard-Montpetit,Mercier–Hochelaga-Maisonneuve,"6 100, Avenue Pierre-de-Coubertin",Municipale,Municipale,"301882,2974",5048409183,Piscine compétitive,-73.537388,45.575583
+2080581,Pataugeoire,Parc Henri-Bourassa,Montréal-Nord,"6 100, Rue Pascal",Municipale,Municipale,"295254,9627",5052882425,,-73.6224,45.615773
+3069278,Piscine intérieure,Centre Rosemont,Rosemont–La Petite-Patrie,"6 101, 8e Avenue",Municipale,Municipale,"297313,3307",5044453022,Piscine récréative,-73.59587,45.539952
+2055167,Pataugeoire,Parc Jean-Amyot,Mercier–Hochelaga-Maisonneuve,"6 110, Rue de Marseille",Municipale,Municipale,"301704,6533",5048454028,,-73.539669,45.575987
+2036764,Pataugeoire,Parc Bocage,Anjou,"6 200, Avenue du Bocage",Municipale,Privé,"300755,4698",5050299696,,-73.551844,45.592584
+2036764,Jeu d'eau,Parc Bocage,Anjou,"6 200, Avenue du Bocage",Municipale,Privé,"300755,4698",5050299696,,-73.551844,45.592584
+2011678,Pataugeoire,Parc Joseph-Paré,Rosemont–La Petite-Patrie,"6 225, Rue 41e",Municipale,Municipale,"299223,6249",5048331366,,-73.571457,45.574865
+2011597,Pataugeoire,De la Louisiane,Rosemont–La Petite-Patrie,"6 244, 35e Avenue",Municipale,Municipale,"299154,4545",5047604196,,-73.572333,45.568323
+3006474,Piscine extérieure,Parc de Kent,Côte-des-Neiges–Notre-Dame-de-Grâce,"6 262, Chemin Hudson",Municipale,Municipale,"294480,4208",5040457946,,-73.632063,45.503958
+3066686,Piscine extérieure,Parc de la Confédération,Côte-des-Neiges–Notre-Dame-de-Grâce,"6 265, Avenue Biermans",Municipale,Municipale,"293982,2718",5036902453,,-73.638357,45.471961
+3065833,Piscine intérieure,Centre sportif de Notre-Dame-de-Grâce,Côte-des-Neiges–Notre-Dame-de-Grâce,"6 445, Avenue Monkland",Municipale,Privé,"294423,0373",5036292024,Piscine compétitive,-73.632704,45.466479
+2081039,Pataugeoire,Parc Tardif,Montréal-Nord,"6 455, Rue Tardif",Municipale,Municipale,"295685,9704",5053165013,,-73.616879,45.618325
+5073228,Piscine extérieure,Natatorium de Verdun,Verdun,"6 500, Boulevard LaSalle",Municipale,Municipale,"298938,9342","5033764,13",,-73.574935,45.443783
+5073228,Pataugeoire,Natatorium de Verdun,Verdun,"6 500, Boulevard LaSalle",Municipale,Municipale,"299428,7771",5034263288,,-73.568677,45.448277
+5073228,Jeu d'eau,Natatorium Verdun,Verdun,"6 500, Boulevard LaSalle",Municipale,Municipale,"299428,7771",5034263288,,-73.568677,45.448277
+2011678,Piscine extérieure,Parc Joseph-Paré,Rosemont–La Petite-Patrie,"6 525, Rue 41e",Municipale,Municipale,"299223,6249",5048331366,,-73.571457,45.574865
+2011915,Pataugeoire,Parc Beaubien,Rosemont–La Petite-Patrie,"6 633, 6e Avenue",Municipale,Municipale,"297777,7771",5045968228,,-73.589951,45.553589
+3080482,Pataugeoire,Parc De Gaspé,Rosemont–La Petite-Patrie,"6 655, Avenue De Gaspé",Municipale,Municipale,"296282,86","5043707,21",,-73.609059,45.533227
+3033394,Pataugeoire,Parc Rosemary-Brown,Côte-des-Neiges–Notre-Dame-de-Grâce,"6 665, Avenue McLynn",Municipale,Municipale,"293228,1198",5038899095,,-73.648047,45.489919
+2055878,Pataugeoire,Parc Saint-Donat,Mercier–Hochelaga-Maisonneuve,"6 800, Rue de Marseille",Municipale,Municipale,"301978,4233",5049185918,,-73.536163,45.582566
+3064845,Pataugeoire,Parc Trenholme,Côte-des-Neiges–Notre-Dame-de-Grâce,"6 800, Rue Sherbrooke Ouest",Municipale,Municipale,"294507,4011",5035648762,,-73.631616,45.460685
+1013876,Pataugeoire,Parc curé Albert-Arnold,Le Sud-Ouest,"6 855, Rue Hamilton",Municipale,Municipale,"297320,3666",5034424653,,-73.595628,45.449707
+4046808,Piscine extérieure,Parc Riverside,LaSalle,"625, 35e Avenue",Municipale,Privé,"295940,2001",5031131875,,-73.613211,45.420058
+4047994,Jeu d'eau,Parc Riverside,LaSalle,"625, 35e Avenue",Municipale,Privé,"296057,9861",5031171949,,-73.611717,45.42042
+3065833,Jeu d'eau,Parc Benny,Côte-des-Neiges–Notre-Dame-de-Grâce,"6445, avenue Monkland",Municipale,Municipale,"294423,0373",5036292024,,-73.632704,45.466479
+5088238,Piscine extérieure,Parc Dixie,Lachine,"695, 54e Avenue",Municipale,OBNL,"287744,8847",5033783241,,-73.718029,45.44377
+2060321,Pataugeoire,Parc Bélair,Villeray–Saint-Michel–Parc-Extension,"7 035, 2e Avenue",Municipale,Municipale,"297190,0184",5046106651,,-73.597471,45.554825
+5018645,Piscine extérieure,Parc Lucie-Bruneau,Anjou,"7 051, Avenue de l’Alsace",Municipale,Privé,"298272,3381",5051460248,,-73.583684,45.603013
+5018645,Pataugeoire,Parc Lucie-Bruneau,Anjou,"7 051, Avenue de l’Alsace",Municipale,Privé,"298272,3381",5051460248,,-73.583684,45.603013
+3066567,Pataugeoire,Parc Loyola,Côte-des-Neiges–Notre-Dame-de-Grâce,"7 069, Avenue Somerland",Municipale,Municipale,"293385,1183","5035738,34",,-73.645965,45.461477
+5068257,Piscine extérieure,Parc des Roseraies,Anjou,"7 070, Avenue de la Nantaise",Municipale,Privé,"300500,6874",5050386914,,-73.555113,45.593366
+3044179,Piscine intérieure,Bain St-Denis,Rosemont–La Petite-Patrie,"7 075, Rue Saint-Hubert",Municipale,Municipale,"296061,2442",5044501726,Piscine récréative,-73.611903,45.540369
+2087210,Piscine extérieure,Parc G. Garibaldi,Saint-Léonard,"7 125, Rue Liénart",Municipale,Privé,"299217,3232",5049704338,,-73.57155,45.58722
+2087210,Jeu d'eau,Parc G. Garibaldi,Saint-Léonard,"7 125, Rue Liénart",Municipale,Privé,"299217,3232",5049704338,,-73.57155,45.58722
+3013747,Pataugeoire,Parc Turin,Villeray–Saint-Michel–Parc-Extension,"7 205, Rue Chambort",Municipale,Municipale,"296158,1454","5045059,33",,-73.610671,45.545391
+3014811,Piscine intérieure,Patro Le Prévost,Villeray–Saint-Michel–Parc-Extension,"7 355, Avenue Christophe-Colomb",Municipale,OBNL,"295932,0012",5044873002,Piscine récréative,-73.613562,45.543715
+3014194,Pataugeoire,Parc De Normanville,Villeray–Saint-Michel–Parc-Extension,"7 480, Rue De Normanville",Municipale,Municipale,"295760,9641",5045092753,,-73.615768,45.545683
+5010387,Piscine extérieure,Parc Roger-Rousseau,Anjou,"7 501, Avenue Rondeau",Municipale,Privé,"300901,7124",5052992126,,-73.549995,45.616818
+5010387,Pataugeoire,Parc Roger-Rousseau,Anjou,"7 501, Avenue Rondeau",Municipale,Privé,"300901,7124",5052992126,,-73.549995,45.616818
+5010387,Jeu d'eau,Parc Roger Rousseau,Anjou,"7 501, Avenue Rondeau",Municipale,Privé,"300901,7124",5052992126,,-73.549995,45.616818
+2062331,Piscine extérieure,Parc François-Perrault,Villeray–Saint-Michel–Parc-Extension,"7 525, Rue François-Perrault",Municipale,Municipale,"296911,0355",5046969854,,-73.601059,45.562587
+4048051,Piscine extérieure,Parc Leroux,LaSalle,"7 540, Rue Centrale",Municipale,Privé,297331444,5032712678,,-73.595461,45.434301
+4048051,Jeu d'eau,Parc Leroux,LaSalle,"7 540, Rue Centrale",Municipale,Privé,297331444,5032712678,,-73.595461,45.434301
+2085259,Piscine extérieure,Parc Ladauversière,Saint-Léonard,"7 560, Boulevard Lacordaire",Municipale,Privé,"298302,2547",5049070747,,-73.583268,45.581507
+2085259,Pataugeoire,Parc Ladauversière,Saint-Léonard,"7 560, Boulevard Lacordaire",Municipale,Privé,"298302,2547",5049070747,,-73.583268,45.581507
+2062331,Pataugeoire,Parc François-Perrault,Villeray–Saint-Michel–Parc-Extension,"7 601, Rue François-Perrault",Municipale,Municipale,"297023,1631",5046904408,,-73.599623,45.562003
+2082478,Piscine extérieure,Parc Hébert,Saint-Léonard,"7 655, Rue Colbert",Municipale,Privé,"297567,1893",5048112095,,-73.592672,45.572879
+2011794,Pataugeoire,Parc Nicolas-Tillemont,Villeray–Saint-Michel–Parc-Extension,"7 833, Avenue Des Érables",Municipale,Municipale,"296042,1988",5046117172,,-73.612175,45.55491
+3123106,Pataugeoire,Parc Jarry,Villeray–Saint-Michel–Parc-Extension,"7 920, Boulevard Saint-Laurent",Municipale,Municipale,"294848,0731",5043953133,,-73.627424,45.535422
+4040258,Jeu d'eau,Parc Gohier,Saint-Laurent,"730, Rue Buchanam",Municipale,Municipale,"290623,8945",5040922751,,-73.681433,45.508075
+0,Jeux d'eau,Jeux d'eau de l'Estre,Villeray–Saint-Michel–Parc-Extension,7930 ave Bloomfield,,,"294379,3377",5043391829,,-73.633417,45.530358
+2006464,Jeu d'eau,Parc Liébert,Mercier–Hochelaga-Maisonneuve,"8 055, Avenue Pierre-de-Coubertin",Municipale,Municipale,"302664,8484",5050703095,,-73.527379,45.596228
+5075187,Pataugeoire,Parc Talcy,Anjou,"8 151, Avenue Talcy",Municipale,Privé,300118683,5051922993,,-73.560024,45.607185
+5075187,Jeu d'eau,Parc Talcy,Anjou,"8 151, Avenue Talcy",Municipale,Privé,300118683,5051922993,,-73.560024,45.607185
+3012132,Piscine intérieure,Joseph-Charbonneau,Villeray–Saint-Michel–Parc-Extension,"8 200, Rue Rousselot",Municipale,Municipale,"295181,1815",5045689471,Piscine compétitive,-73.623195,45.551048
+5031157,Pataugeoire,Parc André-Laurendeau,Anjou,"8 361, Avenue André-Laurendeau",Municipale,Privé,299359252,5051600462,,-73.569751,45.604282
+2032190,Jeu d'eau,Parc Peterborough,Anjou,"8 400,Boulevard Châteauneuf",Municipale,Privé,"300466,8693",5052322791,,-73.555566,45.610786
+2031382,Piscine extérieure,Parc Verdelle,Anjou,"8 441, Place Verdelles",Municipale,Privé,"300932,7921",5052058066,,-73.54959,45.608413
+2031382,Pataugeoire,Parc Verdelle,Anjou,"8 441, Place Verdelles",Municipale,Privé,"300932,7921",5052058066,,-73.54959,45.608413
+5101787,Piscine intérieure,Georges-Vernot,Villeray–Saint-Michel–Parc-Extension,"8 475, 13e Avenue",Municipale,Municipale,"295862,3359",5047623838,Piscine compétitive,-73.614508,45.568459
+4033627,Piscine extérieure,Parc Lefebvre,LaSalle,"8 600, Rue Hardy",Municipale,Privé,"294205,3476",5032846791,,-73.635418,45.435467
+4033627,Jeu d'eau,Parc Lefebvre,LaSalle,"8 600, Rue Hardy",Municipale,Privé,"294205,3476",5032846791,,-73.635418,45.435467
+2026106,Pataugeoire,Parc Sainte-Yvette,Villeray–Saint-Michel–Parc-Extension,"8 950, 10e Avenue",Municipale,Municipale,"294969,3317",5047770472,,-73.625952,45.56977
+4098279,Piscine extérieure,Parc Chamberland,Saint-Laurent,"800, Rue Dorais",Municipale,Municipale,"289960,7379",5040358736,,-73.689901,45.502986
+4098279,Pataugeoire,Parc Chamberland,Saint-Laurent,"800, Rue Dorais",Municipale,Municipale,"290045,9183",5040313592,,-73.688812,45.502583
+1048235,Jeu d'eau,Parc Willibrord,Verdun,"800, Rue Willibrord",Municipale,Municipale,"299023,4547",5035467584,,-73.573868,45.459108
+5096175,Pataugeoire,Parc Campbell-Centre,Le Sud-Ouest,"810, Rue Chatham",Municipale,Municipale,"299000,1862",5038804066,,-73.574202,45.489136
+5016546,Piscine extérieure,Parc St-Laurent,Saint-Laurent,"845, Rue Poirier",Municipale,Municipale,"290176,1758","5042982,52",,-73.687215,45.526602
+5016546,Pataugeoire,Parc St-Laurent,Saint-Laurent,"845, Rue Poirier",Municipale,Municipale,"290219,2815",5043106542,,-73.686668,45.527719
+5016546,Jeu d'eau,Parc St-Laurent,Saint-Laurent,"845, rue Poirier",Municipale,Municipale,"290047,9639",5043021643,,-73.688868,45.52695
+4034718,Piscine extérieure,Parc Decelles,Saint-Laurent,"845, Rue Roy",Municipale,Municipale,"290861,7018",5041517458,,-73.678404,45.513433
+4034718,Pataugeoire,Parc Decelles,Saint-Laurent,"845, Rue Roy",Municipale,Municipale,"290959,0237",5041513418,,-73.67715,45.513399
+4034718,Jeu d'eau,Parc Decelles,Saint-Laurent,"845, Rue Roy",Municipale,Municipale,"290899,1574","5041637,99",,-73.677921,45.514514
+0,Jeux d'eau,Jeux d'eau Howard,Villeray–Saint-Michel–Parc-Extension,8505 ave de l'Épée,,,"293711,9497",5043791028,,-73.641979,45.533947
+3036307,Piscine extérieure,Parc John-F-Kennedy,Outremont,"860, Avenue Outremont",Municipale,Privé,295743057,5042393953,,-73.615936,45.521396
+3036307,Pataugeoire,Parc John-F.-Kennedy,Outremont,"860, Avenue Outremont",Municipale,Privé,295743057,5042393953,,-73.615936,45.521396
+0,Jeux d'eau,Jeux d'eau Saint-Alphonse,Ahuntsic-Cartierville,8888 de Châteaubrian,,,"293997,7952",5045460699,,-73.638354,45.54897
+2020378,Piscine extérieure,Parc Sainte-Lucie,Villeray–Saint-Michel–Parc-Extension,"9 093, 16e Avenue",Municipale,Municipale,"294906,5867",5048430506,,-73.626772,45.575708
+2020378,Pataugeoire,Parc Ste-Lucie,Villeray–Saint-Michel–Parc-Extension,"9 093, 16e Avenue",Municipale,Municipale,"294992,0311",5048352828,,-73.625669,45.575007
+5032287,Pataugeoire,Parc Saint-Victor,Mercier–Hochelaga-Maisonneuve,"9 175, Rue Hochelaga",Municipale,Municipale,303417491,5051955176,,-73.517731,45.607496
+2050446,Piscine extérieure,Parc L.-O.-Taillon,Mercier–Hochelaga-Maisonneuve,"9 200, Rue Notre-Dame Est",Municipale,Municipale,"303925,6699",5051785999,Rénovation majeure en 2011,-73.511217,45.605967
+4024539,Jeu d'eau,Parc Dalmany,LaSalle,"9 650, Rue Dalmany",Municipale,Privé,292358483,5032163485,,-73.659007,45.42929
+5089791,Jeu d'eau,Parc Duquette,Verdun,"900, Rue Bannantyne",Municipale,Municipale,"298946,1185",5036228968,,-73.574862,45.465955
+4030630,Jeu d'eau,Parc Poirier,Saint-Laurent,"900, Rue Trudeau",Municipale,Municipale,"292095,1389",5041611817,,-73.662613,45.514303
+0,Pataugeoire,Pataugeoire henri-Julien,Ahuntsic-Cartierville,9300 rue St-Denis,,,"293201,5025","5045269,24",,-73.648544,45.547238
+1017231,Piscine intérieure,Bain Lévesque,Le Plateau-Mont-Royal,"955, Rue Marie-Anne Est",Municipale,Municipale,"298715,0666",5042928684,Piscine récréative,-73.577899,45.526243
+0,Pataugeoire,Pataugeoire St-Paul de la Croix,Ahuntsic-Cartierville,9900 rue Hamel,,,"292963,1673",5046779026,,-73.651628,45.560821
+3064583,Pataugeoire,Parc Georges-Saint-Pierre,Côte-des-Neiges–Notre-Dame-de-Grâce,"999, Avenue d’Oxford",Municipale,Municipale,"296381,6749",5036531357,,-73.607669,45.468656
+4123964,Jeu d'eau,Parc Père-Marquette,LaSalle,Angle des rues Bouvier et Louis-Joliet,Municipale,Privé,"295769,5011","5032318,57",,-73.615418,45.430737
+4027481,Jeu d'eau,Parc Jeannotte,LaSalle,Angle des rues Clément et Trudeau,Municipale,Privé,"293881,1969",5032504888,,-73.639551,45.432384
+2063743,Jeu d'eau,Parc Hochelaga,Mercier–Hochelaga-Maisonneuve,Angle Lafontaine et Davidson,Municipale,Municipale,"301319,5393",5044694075,,-73.544576,45.542152
+1022387,Jeu d'eau,Parc des Royaux,Ville-Marie,Ave. De Lorimier/De Rouen,Municipale,Municipale,"300143,9394",5043327453,,-73.559622,45.529844
+3066686,Pataugeoire,Parc de la Confédération,Côte-des-Neiges–Notre-Dame-de-Grâce,Avenue Biemans,Municipale,Municipale,"293982,2718",5036902453,,-73.638357,45.471961
+3066686,Jeu d'eau,Parc de la Confédération,Côte-des-Neiges–Notre-Dame-de-Grâce,Avenue Biemans,Municipale,Municipale,"293982,2718",5036902453,,-73.638357,45.471961
+1031761,Jeu d'eau,Parc Alphonse-Télesphore-Lépine,Le Plateau-Mont-Royal,Avenue De Gaspé,Municipale,Municipale,"297567,4615","5042885,79",,-73.592595,45.525845
+5082525,Jeu d'eau,Parc Howard,Villeray–Saint-Michel–Parc-Extension,Avenue de l’Épée,Municipale,Municipale,"273689,5099","5041122,18",,-73.898158,45.509324
+1129831,Pataugeoire,Parc Ignace-Bourget,Le Sud-Ouest,Avenue de Montmagny,Municipale,Municipale,"296402,7493",5035017941,,-73.607374,45.455032
+5078319,Jeu d'eau,Parc Jean-Duceppe,Rosemont–La Petite-Patrie,Avenue du Mont-Royal Est / Rue André-Laurendeau,Municipale,Municipale,"299647,0029",5044844499,,-73.565988,45.543491
+2064032,Jeu d'eau,Parc Jacques-Blanchet,Mercier–Hochelaga-Maisonneuve,Avenue Jeanne-d’Arc,Municipale,Municipale,"301598,8934",5045446757,,-73.541008,45.54892
+5016060,Jeu d'eau,Parc Laurier-Charlemagne,Rosemont–La Petite-Patrie,Avenue Laurier / Avenue Charlemagne,Municipale,Municipale,"299564,6599",5046329973,,-73.567067,45.556853
+5091157,Jeu d'eau,Parc Saint-Michel,Le Plateau-Mont-Royal,Avenue Laurier Est et rue Saint-Dominique,Municipale,Municipale,"297543,4176",5042694682,,-73.592899,45.524126
+3039080,Jeu d'eau,Parc Notre-Dame-de-Grâce,Côte-des-Neiges–Notre-Dame-de-Grâce,Avenue Marcil,Municipale,Municipale,"295866,3776",5036993461,,-73.614263,45.472807
+2151127,Jeu d'eau,Parc Pierre-Blanchet,Rivière-des-Prairies–Pointe-aux-Trembles,Avenue Pierre-Blanchet,Municipale,Municipale,"296700,2167",5054264739,,-73.603883,45.628227
+5073228,Jeu d'eau,Parc L’orée du Fleuve,Verdun,Chemin de la Pointe-Sud,Municipale,Municipale,"299428,7771",5034263288,,-73.568677,45.448277
+0,Jeux d'eau,Jeux d'eau des Hirondelles,Ahuntsic-Cartierville,Fleury/Larose,,,"293816,6621",5048456998,,-73.640739,45.575926
+5102653,Jeu d'eau,Ovila-Légaré,Villeray–Saint-Michel–Parc-Extension,Rue 51e,Municipale,Municipale,"295162,0372",5049044645,,-73.623504,45.581237
+1107076,Jeu d'eau,Parc des Joyeux-Vikings,Ville-Marie,Rue Beaudry,Municipale,Municipale,"300122,9639",5042331187,,-73.559881,45.520882
+4143045,Jeu d'eau,Parc Ménard,LaSalle,Rue Bergevin,Municipale,Privé,"292815,8028",5032646392,,-73.653179,45.433645
+4034363,Jeu d'eau,Parc Lawrence,LaSalle,Rue Beyries,Municipale,Privé,"294879,0621",5030918425,,-73.626764,45.418127
+5169307,Jeu d'eau,Parc Champdoré,Villeray–Saint-Michel–Parc-Extension,Rue Champdoré,Municipale,Municipale,"294208,4243",5047640399,,-73.635699,45.568589
+5073473,Jeu d'eau,Parc Clark,Le Plateau-Mont-Royal,Rue Clark,Municipale,Municipale,"296612,4463",5043057287,,-73.604823,45.527382
+4042795,Jeu d'eau,Parc J.D. Ducharme,LaSalle,Rue Daoust,Municipale,Privé,"295124,6393","5032004,81",,-73.623655,45.427903
+5036992,Jeu d'eau,Parc de L’Épervière,Verdun,Rue de la Vigne,Municipale,Municipale,"301121,4972",5036178403,,-73.547047,45.46552
+4037363,Jeu d'eau,Parc Boivin,LaSalle,Rue de Matane,Municipale,Privé,"294351,4089",5031023475,,-73.633513,45.419065
+5036733,Jeu d'eau,Parc des Faubourgs,Ville-Marie,Rue Dorion,Municipale,Municipale,"300366,0914",5042959867,,-73.556764,45.526534
+1001870,Jeu d'eau,Parc Gilles-Lefebvre,Le Plateau-Mont-Royal,Rue Drolet,Municipale,Municipale,"298225,4216",5042609564,,-73.584168,45.523368
+5019871,Jeu d'eau,Parc Joanette,Verdun,Rue Hickson / Rue Ethel,Municipale,Municipale,299446643,5036102175,,-73.568466,45.464826
+2099605,Jeu d'eau,Parc Victoria-Girard,Rivière-des-Prairies–Pointe-aux-Trembles,Rue Jean-Leduc,Municipale,Municipale,"304230,3133",5057183641,,-73.507314,45.65454
+5108885,Jeu d'eau,Parc Dollard-Morin,Rivière-des-Prairies–Pointe-aux-Trembles,Rue La Valinière,Municipale,Municipale,"297494,9257",5054152178,,-73.593698,45.627228
+4038155,Jeu d'eau,Parc J.O.R.-Leduc,LaSalle,Rue Paquette,Municipale,Privé,"294415,6633",5032014401,,-73.632716,45.427983
+1110307,Jeu d'eau,Parc Persillier-Lachapelle,Ville-Marie,Rue Plessis,Municipale,Municipale,"299973,1167",5042744577,,-73.561793,45.524597
+3010833,Jeu d'eau,Parc Saint-Édouard,Rosemont–La Petite-Patrie,Rue Saint-André / Rue Saint-Zotique Est,Municipale,Municipale,"296465,3211",5044312278,,-73.606727,45.538673
+5072912,Jeu d'eau,Parc Marie-Coron,Rivière-des-Prairies–Pointe-aux-Trembles,Rue Victor-E.-Beaupré,Municipale,Municipale,"304818,6907",5057746325,,-73.499769,45.659606
+5068368,Jeu d'eau,Parc Marcelle-Barthe,Ville-Marie,Rue Wolfe,Municipale,Municipale,"300011,0177",5042269521,,-73.561301,45.520323
+0,Jeux d'eau,Jeux d'eau St-Benoit,Ahuntsic-Cartierville,Sauvé Ouest/Meilleur,,,"291809,7388",5044552941,,-73.666351,45.540762
+0,Piscine intérieure,Piscine Émile-Legault,Saint-Laurent,,,,"288903,4849","5040706,59",,-73.703438,45.506094
+0,Piscine intérieure,Piscine Jonh F. Kennedy,Villeray–Saint-Michel–Parc-Extension,,,,"296710,4364",5046654674,,-73.603628,45.55975
