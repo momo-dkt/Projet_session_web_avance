@@ -8,11 +8,11 @@ from flask import g
 
 from flask import jsonify
 from werkzeug.utils import send_file
-from database import Database
+from .database import Database
 from apscheduler.schedulers.background import BackgroundScheduler
 #import extract
 from pytz import utc
-from database import Database
+
 
 from dicttoxml import dicttoxml
 import csv
@@ -21,7 +21,7 @@ import shutil
 import os
 from flask_json_schema import JsonSchema
 from flask_json_schema import JsonValidationError
-from schemas import glissade_modify_schema
+from .schemas import glissade_modify_schema
 
 
 app = Flask(__name__, static_folder="static", static_url_path="")
