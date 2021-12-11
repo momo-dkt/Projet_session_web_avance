@@ -1,6 +1,7 @@
 import sqlite3
 from typing import List
 from operator import itemgetter
+import os
 
 
 class Database:
@@ -9,8 +10,13 @@ class Database:
         self.connection = None
 
     def get_connection(self):
+        BASE_DIR = os.path.abspath(os.path.dirname(__file__))
+
         if self.connection is None:
-            self.connection = sqlite3.connect('db/database.db')
+
+            self.connection = sqlite3.connect(
+                os.path.join(BASE_DIR, 'db/database.db'))
+
         return self.connection
 
     def disconnect(self):
