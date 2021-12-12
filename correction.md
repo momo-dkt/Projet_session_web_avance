@@ -49,3 +49,5 @@
      Cette fonctionnalité peut être testée sur la route eth1:5000/api/installations/delete/<nom> à travers Postman ou Yarc avec la methode DELETE.
 
 ## 12) F1 :
+
+     https://info-installations.herokuapp.com/
