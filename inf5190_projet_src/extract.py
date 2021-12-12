@@ -56,7 +56,7 @@ def insert_lieu_baignade(cursor, data):
 
 
 def extraction_piscine():
-    print("PISCINE")
+
     import_file_piscine()
     # Transformation en DataFrame avec le fichier csv
     data = pd.read_csv(get_path("static/file/piscines.csv"), encoding="UTF-8")
@@ -99,7 +99,7 @@ def import_file_patinoire():
 
 
 def extraction_patinoires():
-    print("patinoire")
+
     url_content = import_file_patinoire()
     root = ET.fromstring(url_content)
     nom, date_heure, deblaye, ouvert, i = 0, 0, 0, 0, 0
@@ -108,6 +108,7 @@ def extraction_patinoires():
 
     # Connection base de données
     connection = sqlite3.connect('db/database.db')
+    print("ddd")
     cursor = connection.cursor()
     create_table_patinoire(cursor)
     arrondissements = root.findall('arrondissement')
@@ -190,7 +191,7 @@ def import_file_glissade():
 
 
 def extraction_glissade():
-    print("GLISSADE")
+
     url_content = import_file_glissade()
     root = ET.fromstring(url_content)
     rows = []

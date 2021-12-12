@@ -31,10 +31,12 @@ import atexit
 app = Flask(__name__, static_folder="static", static_url_path="")
 Bootstrap(app)
 schema = JsonSchema(app)
+"""
 
 
 if os.path.isdir('db'):
     shutil.rmtree('db')
+"""
 
 initialisation()
 
