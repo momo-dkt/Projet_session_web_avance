@@ -10,7 +10,7 @@
 
 ## 2) A2 :
 
-    Le Background scheduler a été fait dans le app.py , et peut être testé en changeant le trigger pour "interval", et le moment  de l'exécution du background  à seconds=180 pour qu'elle s'exécute à chaque 3 minutes.
+    Le Background scheduler a été fait dans le app.py , et peut être testé en changeant le trigger pour "interval", et le moment  de l'exécution du background  à seconds=300 pour qu'elle s'exécute à chaque 5 minutes (pour espacer les intervalles car c'est quand même un gros travail d'importer et d'insérer les données dans la base de données).
 
 ## 3) A3 :
 

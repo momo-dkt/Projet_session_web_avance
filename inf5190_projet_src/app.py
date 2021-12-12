@@ -40,7 +40,7 @@ initialisation()
 
 
 sched = BackgroundScheduler(timezone=utc, deamon=True)
-sched.add_job(extraction, trigger="interval", seconds=90)
+sched.add_job(extraction, trigger="cron", hour=0)
 sched.start()
 atexit.register(lambda: sched.shutdown())
 
