@@ -6,6 +6,9 @@ import pandas as pd
 import csv
 import xml.etree.ElementTree as ET
 import os
+import shutil
+
+from shared import get_path
 
 
 def create_table_lieu_baignade(cursor):
@@ -30,16 +33,18 @@ def import_file_piscine():
     req = requests.get(
         "https://data.montreal.ca/dataset/4604afb7-a7c4-4626-a3ca-e136158133f2/resource/cbdca706-569e-4b4a-805d-9af73af03b14/download/piscines.csv")
     url_content = req.content
-    csv_file = open('static/file/piscines.csv', 'wb')
+
+    csv_file = open(get_path('static/file/piscines.csv'), 'wb')
     # Écriture des données dans une fichier
     csv_file.write(url_content)
     csv_file.close
 
 
 def insert_lieu_baignade(cursor, data):
-    data.to_csv(path_or_buf="static/file/baignades.csv",
+    data.to_csv(get_path("static/file/baignades.csv"),
                 index=False, encoding="UTF-8")
-    with open("static/file/baignades.csv", 'r', encoding='utf8') as fin:
+
+    with open(get_path("static/file/baignades.csv"), 'r', encoding='utf8') as fin:
         dr = csv.DictReader(fin)
         data = [(i['ARRONDISSE'], i['NOM'], i['TYPE'],
                  i['ADRESSE']) for i in dr]
@@ -50,9 +55,10 @@ def insert_lieu_baignade(cursor, data):
 
 
 def extraction_piscine():
+    print("PISCINE")
     import_file_piscine()
     # Transformation en DataFrame avec le fichier csv
-    data = pd.read_csv("static/file/piscines.csv", encoding="UTF-8")
+    data = pd.read_csv(get_path("static/file/piscines.csv"), encoding="UTF-8")
     data = data.drop(['ID_UEV', 'PROPRIETE', 'GESTION', 'POINT_X',
                      'POINT_Y', 'EQUIPEME', 'LONG', 'LAT'], axis=1)
     connection = sqlite3.connect('db/database.db')
@@ -92,10 +98,13 @@ def import_file_patinoire():
 
 
 def extraction_patinoires():
+    print("patinoire")
     url_content = import_file_patinoire()
     root = ET.fromstring(url_content)
-    nom, date_heure, deblaye, ouvert = 0, 0, 0, 0
+    nom, date_heure, deblaye, ouvert, i = 0, 0, 0, 0, 0
+
     debut = True
+
     # Connection base de données
     connection = sqlite3.connect('db/database.db')
     cursor = connection.cursor()
@@ -103,12 +112,16 @@ def extraction_patinoires():
     arrondissements = root.findall('arrondissement')
     # for traitant l'extraction et l'insertion dans la base de données
     for arrondissement in arrondissements:
+
         debut = True
         deblaye = 0
         ouvert = 0
+        i = 0
         nom_arr = arrondissement.findall('nom_arr')[0]
         patinoire = arrondissement.findall('patinoire')[0]
+
         for child in patinoire:
+
             if child.tag == "nom_pat" and debut:
                 nom = child.text
                 debut = False
@@ -131,6 +144,7 @@ def extraction_patinoires():
                         deblaye = son.text
                     elif son.tag == "ouvert":
                         ouvert = son.text
+
     connection.commit()
     connection.close()
 
@@ -155,7 +169,7 @@ def create_table_glissade(cursor):
 
 
 def insert_glissade(df, cursor):
-    name = "static/file/data_aires_de _jeu.csv"
+    name = get_path("static/file/data_aires_de _jeu.csv")
     insert = "INSERT INTO glissade (arrondissement, nom, ouvert, deblaye, mise_a_jour) VALUES(?, ?, ?, ?, ?);"
     df.to_csv(path_or_buf=name, index=False)
     with open(name, 'r', encoding='utf8') as fin:
@@ -166,6 +180,7 @@ def insert_glissade(df, cursor):
 
 
 def import_file_glissade():
+
     # Imporation des données
     data = requests.get(
         "http://www2.ville.montreal.qc.ca/services_citoyens/pdf_transfert/L29_GLISSADE.xml")
@@ -174,6 +189,7 @@ def import_file_glissade():
 
 
 def extraction_glissade():
+    print("GLISSADE")
     url_content = import_file_glissade()
     root = ET.fromstring(url_content)
     rows = []
@@ -204,6 +220,9 @@ def extraction_glissade():
 
 
 def extraction():
+    if os.path.isdir('db'):
+        shutil.rmtree('db')
+        os.mkdir('db')
     extraction_piscine()
     extraction_patinoires()
     extraction_glissade()
@@ -222,8 +241,10 @@ def initialisation():
 
 # Fonction main
 if (__name__ == "__main__"):
+    """
     if not os.path.isdir('db'):
         os.mkdir('db')
-    # extraction_piscine()
+    extraction_piscine()
     extraction_patinoires()
-    # extraction_glissade()
+    extraction_glissade()
+    """

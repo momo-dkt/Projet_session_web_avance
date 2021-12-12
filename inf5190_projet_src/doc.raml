@@ -1,88 +1,171 @@
 #%RAML 1.0
-title: Documentation of REST API for the website
+title: Documentation of REST API for the website Info Installations
 mediaType: application/json
-types:
-  NewPerson:
-    properties:
-      lastname:
-        type: string
-        required: true
-      firstname:
-        type: string
-        required: true
-      age:
-        type: number
-        required: true
-  ExistingPerson:
-    properties:
-      id:
-        type: string
-        required: true
-      lastname:
-        type: string
-        required: true
-      firstname:
-        type: string
-        required: true
-      age:
-        type: number
-        required: true
+    
 /api:
   /installations:
     /{arrondissement}:
       get:
-        description: Extract the data of all the persons.
+      description: Gives all the installations of a district.
       responses:
-        200:
+         200:
           body:
             application/json:
-              type: ExistingPerson[]
-    post:
-      description: Create a new person.
-      body:
-        application/json:
-          type: NewPerson
-          example:
-            lastname: Jackson
-            firstname: Michael
-            age: 54
-      responses:
-        201:
-          description: The person was successfully created.
-          body:
-            application/json:
-              type: ExistingPerson
               example:
-                id: 5
-                lastname: Jackson
-                firstname: Michael
-                age: 54
-    /{id}:
+                {
+                  "name" : "string"
+                }
+         400:
+          body:
+            application/json:
+              example:
+                {
+                  "Installation inexistante"
+                }
+    /nom:
+      /{nom_installation}:         
+        get:
+        description: Gives all the details of an installation.
+        responses: 
+            200: 
+              body:
+                application/json:
+                  example:
+                    {   
+                      "Type": "Piscine",
+                      "arrondissement": "string",
+                      "nom": "string",
+                      "type": "string",
+                      "adresse": "string" 
+                    }
+          404:
+            body:
+                application/json:
+                  example:
+                    {
+                      "The installation does not exist".
+                    }
+                    
+    /{json_2021}:
       get:
-        description: Extract the data of one person, specified by it's id.
-        responses:
-          200:
-            body:
-              application/json:
-                type: ExistingPerson
-          404:
-            description: The specified identifier does not exist.
+      description:Gives all the installations in json format where the last update has been done in 2021.
+      responses: 
+            200: 
+              body:
+               multipart/form-data:
+                 properties:
+                   file: 
+                     description: 2021.json
+                     type: file
+                     
+            404:
+              body:
+                application/json:
+                  example:
+                    {
+                      "There is no installations where the last update were in 2021."
+                    }
+    /{xml_2021}:
+      get:
+      description:Gives all the installations in xml format where the last update has been done in 2021.
+      responses: 
+            200: 
+              body:
+               multipart/form-data:
+                 properties:
+                   file: 
+                     description: 2021.xml
+                     type: file
+                     
+            404:
+              body:
+                application/json:
+                  example:
+                    {
+                      "There is no installations where the last update were in 2021."
+                    }  
+    /{csv_2021}:
+      get:
+      description:Gives all the installations in csv format where the last update has been done in 2021.
+      responses: 
+            200: 
+              body:
+               multipart/form-data:
+                 properties:
+                   file: 
+                     description: 2021.csv
+                     type: file
+                     
+            404:
+              body:
+                application/json:
+                  example:
+                    {
+                      "There is no installations where the last update were in 2021."
+                    }  
+    /modifier_glissade:
       put:
-        description: Modify the data of one person, specified by it's id. It is not possible to change the id.
-        body:
-          application/json:
-            type: ExistingPerson
-        responses:
-          200:
-            body:
-              application/json:
-                type: ExistingPerson
-          404:
-            description: The specified identifier does not exist.
-      delete:
-        description: Delete completely the data of a person, specified by it's id.
-        responses:
-          200:
-            description: The person was deleted successfully.
-          404:
-            description: The specified identifier does not exist.
+      description: Modify a slip and return it.
+       
+      body: 
+         application/json:
+          example:
+            {
+              "arrondissement": "string",
+              "nom": "string",
+              "ouvert": "string",
+              "deblaye": "string"
+            
+            }
+      responses: 
+         200:
+          body:
+            application/json:
+              example:
+                {
+                    "arrondissement": "string",
+                    "nom": "string",
+                    "ouvert": "string",
+                    "deblaye": "string", 
+                    "Last update": "string"
+                }
+
+         404:
+          body:  
+            application/json:
+              example:
+                {
+                  "The specified slip does not exist."
+                
+                }                
+    /delete:
+      /{nom}:
+        delete:
+        description: Delete the slip through the name and send all the slips.
+       
+                    
+        responses: 
+            200:
+              body:
+                application/json:
+                  example:
+                    {
+                      "arrondissement": "string",
+                      "nom": "string",
+                      "ouvert": "string",
+                      "deblaye": "string", 
+                      "Last update": "string"
+                    }
+
+            404:
+              body:  
+                application/json:
+                  example:
+                    {
+                      "The specified slip does not exist."
+                
+                    }
+        
+
+
+   

@@ -1,4 +1,5 @@
 
+from xml.etree import ElementTree
 from flask_bootstrap import Bootstrap
 from flask import Flask
 from flask import render_template
@@ -10,44 +11,38 @@ from flask import jsonify
 from werkzeug.utils import send_file
 from database import Database
 from apscheduler.schedulers.background import BackgroundScheduler
-#import extract
+from extract import initialisation
+from extract import extraction
 from pytz import utc
 
 
-from dicttoxml import dicttoxml
 import csv
 from flask import send_file
 import shutil
 import os
 from flask_json_schema import JsonSchema
 from flask_json_schema import JsonValidationError
+#from inf5190_projet_src.shared import get_path
+from shared import get_path
 from schemas import glissade_modify_schema
+import atexit
 
 
 app = Flask(__name__, static_folder="static", static_url_path="")
 Bootstrap(app)
 schema = JsonSchema(app)
 
-"""
+
 if os.path.isdir('db'):
     shutil.rmtree('db')
 
-extract.initialisation()
-"""
-
-sched = BackgroundScheduler(timezone=utc)
+initialisation()
 
 
-# @sched.scheduled_job('cron', minute=1)
-# def importation_automarique():
-#    extract.extraction()
-
-"""
-sched = BackgroundScheduler(timezone=utc)
-sched.add_job(extract.extraction, trigger='cron', hour=0)
+sched = BackgroundScheduler(timezone=utc, deamon=True)
+sched.add_job(extraction, trigger="interval", seconds=90)
 sched.start()
-"""
-# commentaire
+atexit.register(lambda: sched.shutdown())
 
 
 def get_db():
@@ -60,11 +55,9 @@ def get_db():
 @app.route("/")
 def home():
     all_installations = get_db().get_all_installations()
-
-    # for installation in installations:
-    # print(installation)
+    if all_installations is None:
+        return "Application not available", 404
     return render_template('home.html', all_installations=all_installations)
-    # return "hello word"
 
 
 """
@@ -109,79 +102,96 @@ def get_details(nom_installation):
 @app.route('/api/installations/json_2021', methods=['GET'])
 def get_installations_json_2021():
     installations = get_db().get_installations_2021()
+    if installations is None:
+        return jsonify("Aucune installation n'a été mis à jour en 2021"), 404
+    else:
+        installations_json = []
+        for installation in installations:
+            if len(installation) == 4:
+                data = {
+                    "arrondissement": installation[1], "nom": installation[2], "Dernier_mise_a_jour": installation[3]}
 
-    installations_json = []
-    for installation in installations:
-        if len(installation) == 4:
-            data = {
-                "arrondissement": installation[1], "nom": installation[2], "Dernier_mise_a_jour": installation[3]}
+            elif len(installation) == 5:
+                data = {"arrondissement": installation[1], "nom": installation[2],
+                        "type": installation[3], "adresse": installation[4]}
 
-        elif len(installation) == 5:
-            data = {"arrondissement": installation[1], "nom": installation[2],
-                    "type": installation[3], "adresse": installation[4]}
-
-        elif len(installation) == 6:
-            data = {"arrondissement": installation[1], "nom": installation[2], "ouvert": installation[3],
-                    "deblaye": installation[4], "Dernier_mise_a_jour": installation[5]}
-        installations_json.append(data)
+            elif len(installation) == 6:
+                data = {"arrondissement": installation[1], "nom": installation[2], "ouvert": installation[3],
+                        "deblaye": installation[4], "Dernier_mise_a_jour": installation[5]}
+            installations_json.append(data)
     return jsonify(installations_json)
 
 
 @app.route('/api/installations/xml_2021', methods=['GET'])
 def get_installations_xml_2021():
     installations = get_db().get_installations_2021()
-    print(type(installations))
-    #installations_json = []
-    """
-    for installation in installations:
-        
-        if len(installation) == 4:
+    if installations is None:
+        return jsonify("Aucune installation n'a été mis à jour en 2021"), 404
+    else:
 
-            data = {
-                "arrondissement": installation[1], "nom": installation[2], "Dernier_mise_a_jour": installation[3]}
+        root = ElementTree.Element("root")
+        ists = ElementTree.SubElement(root, "installations")
 
-        elif len(installation) == 5:
-            data = {"arrondissement": installation[1], "nom": installation[2],
-                    "type": installation[3], "adresse": installation[4]}
+        for installation in installations:
 
-        elif len(installation) == 6:
-            data = {"arrondissement": installation[1], "nom": installation[2], "ouvert": installation[3],
-                    "deblaye": installation[4], "Dernier_mise_a_jour": installation[5]}
-        
-        
-        installations_json.append(data)
-        data_json=json.load(installations_json)
-     """
-    #op = dict.fromkeys("Installations", installations)
+            if len(installation) == 4:
+                ist = ElementTree.SubElement(ists, "installation")
+                ElementTree.SubElement(ist, "nom").text = installation[2]
+                ElementTree.SubElement(
+                    ist, "arrondissement").text = installation[1]
+                ElementTree.SubElement(
+                    ist, "dernier_mise_a_jour").text = installation[3]
 
-    op = {installation[2]: "installation" for installation in installations}
-    print(type(op))
-    xml = dicttoxml(op)
+            elif len(installation) == 5:
+                ist = ElementTree.SubElement(ists, "installation")
+                ElementTree.SubElement(ist, "nom").text = installation[2]
+                ElementTree.SubElement(
+                    ist, "arrondissement").text = installation[1]
+                ElementTree.SubElement(
+                    ist, "type").text = installation[3]
+                ElementTree.SubElement(ist, "adresse").text = installation[4]
 
-    return []
+            elif len(installation) == 6:
+                ist = ElementTree.SubElement(ists, "installation")
+                ElementTree.SubElement(ist, "nom").text = installation[2]
+                ElementTree.SubElement(
+                    ist, "arrondissement").text = installation[1]
+                ElementTree.SubElement(
+                    ist, "ouvert").text = installation[3]
+                ElementTree.SubElement(ist, "deblaye").text = installation[4]
+                ElementTree.SubElement(
+                    ist, "dernier_mise_a_jour").text = installation[5]
+
+        tree = ElementTree.ElementTree(root)
+        tree.write(get_path("static/file/2021.xml"))
+
+    return send_file(get_path("static/file/2021.xml"), mimetype="xml")
 
 
 @app.route('/api/installations/csv_2021', methods=['GET'])
 def get_installations_csv_2021():
     installations = get_db().get_installations_2021()
-    champs = ["Arrondissement", "Nom", "Derniére Mise à jour",
-              "Type", "Adresse", "Ouvert", "Deblaye"]
-    lignes = []
-    for installation in installations:
-        if len(installation) == 4:
-            data = [installation[1], installation[2], installation[3]]
-        elif len(installation) == 5:
-            data = [installation[1], installation[2],
-                    " ", installation[3], installation[4]]
-        elif len(installation) == 6:
-            data = [installation[1], installation[2],
-                    installation[5], "", "", installation[3], installation[4]]
-        lignes.append(data)
-    with open('static/file/2021.csv', 'w', encoding="utf-8") as f:
-        # using csv.writer method from CSV package
-        write = csv.writer(f)
-        write.writerow(champs)
-        write.writerows(lignes)
+    if installations is None:
+        return jsonify("Aucune installation n'a été mis à jour en 2021"), 404
+    else:
+        champs = ["Arrondissement", "Nom", "Derniére Mise à jour",
+                  "Type", "Adresse", "Ouvert", "Deblaye"]
+        lignes = []
+        for installation in installations:
+            if len(installation) == 4:
+                data = [installation[1], installation[2], installation[3]]
+            elif len(installation) == 5:
+                data = [installation[1], installation[2],
+                        " ", installation[3], installation[4]]
+            elif len(installation) == 6:
+                data = [installation[1], installation[2],
+                        installation[5], "", "", installation[3], installation[4]]
+            lignes.append(data)
+        with open('static/file/2021.csv', 'w', encoding="utf-8") as f:
+            # using csv.writer method from CSV package
+            write = csv.writer(f)
+            write.writerow(champs)
+            write.writerows(lignes)
     return send_file("static/file/2021.csv", mimetype="csv")
 
 
@@ -235,11 +245,6 @@ def delete_glissade(nom):
 @app.route('/doc')
 def documentation():
     return render_template('doc.html')
-
-
-@app.route('/installations_table')
-def installations_tab():
-    return render_template('tab.tml')
 
 
 if __name__ == "__main__":

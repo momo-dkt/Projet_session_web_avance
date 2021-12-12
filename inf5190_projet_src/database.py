@@ -14,8 +14,7 @@ class Database:
 
         if self.connection is None:
 
-            self.connection = sqlite3.connect(
-                os.path.join(BASE_DIR, 'db/database.db'))
+            self.connection = sqlite3.connect('db/database.db')
 
         return self.connection
 
