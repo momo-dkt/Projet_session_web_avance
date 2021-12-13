@@ -6,7 +6,7 @@
 body {
   margin: 0px;
   padding: 0;
-  font: italic small-caps bold 16px/2 cursive;
+  font: Arial small-caps bold 16px/2 cursive;
   background: linear-gradient(to right, grey, white);
 }
 
@@ -20,7 +20,7 @@ body {
   background-color: grey;
   height: 30px;
   background: linear-gradient(to right, white, GREY);
-  font: italic small-caps bold 12px/2 cursive;
+  font: Arial small-caps bold 12px/2 cursive;
 }
 
 /*Enlever les points dans les listes*/
@@ -53,7 +53,7 @@ ul li a {
 
 h1 {
   margin-top: 0px;
-  font: italic small-caps bold 16px/2 cursive;
+  font: Arial small-caps bold 16px/2 cursive;
   background: linear-gradient(to right, WHITE, BLACK);
 }
 
@@ -65,7 +65,7 @@ h1 {
 }
 
 .button {
-  font: italic small-caps bold 10px/2 cursive;
+  font: Arial small-caps bold 10px/2 cursive;
   border-radius: 30px;
   border: 1px solid #dcdcdc;
   width: 100px;
@@ -73,7 +73,7 @@ h1 {
 
 #installationsList {
   border-radius: 30px;
-  font: italic small-caps bold 10px/2 cursive;
+  font: Arial small-caps bold 10px/2 cursive;
   width: 400px;
   height: 30px;
 }
