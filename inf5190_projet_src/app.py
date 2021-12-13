@@ -33,15 +33,14 @@ Bootstrap(app)
 schema = JsonSchema(app)
 """
 
-
 if os.path.isdir('db'):
     shutil.rmtree('db')
 """
 
-initialisation()
+# initialisation()
 
 
-sched = BackgroundScheduler(timezone=utc, deamon=True)
+sched = BackgroundScheduler(deamon=True)
 sched.add_job(extraction, trigger="cron", hour=0)
 sched.start()
 atexit.register(lambda: sched.shutdown())
@@ -59,14 +58,7 @@ def home():
     all_installations = get_db().get_all_installations()
     if all_installations is None:
         return "Application not available", 404
-    return render_template('home.html', all_installations=all_installations)
-
-
-"""
-@app.errorhandler(404)
-def page_not_found(e):
-    return render_template('404.html'), 404
-"""
+    return render_template('home.html', all_installations=all_installations), 200
 
 
 @app.route('/api/installations/<arrondissement>', methods=['GET'])
@@ -76,7 +68,7 @@ def get_arrondissement(arrondissement):
 
         return jsonify("Aucune installation"), 404
     else:
-        return jsonify([{"nom": each} for each in installations])
+        return jsonify([{"nom": each} for each in installations]), 200
 
 
 @app.route('/api/installations/nom/<nom_installation>', methods=['GET'])
@@ -86,17 +78,12 @@ def get_details(nom_installation):
     if installation is None:
         return jsonify("Installation inexistante"), 404
     else:
-        if len(installation) == 4:
+        if len(installation) == 5:
 
-            return jsonify({"arrondissement": installation[1], "nom": installation[2], "Dernier_mise_a_jour": installation[3]})
-
-        elif len(installation) == 5:
-
-            return jsonify({"arrondissement": installation[1], "nom": installation[2], "type": installation[3], "adresse": installation[4]})
+            return jsonify({"arrondissement": installation[1], "nom": installation[2], "type": installation[3], "adresse": installation[4]}), 200
 
         elif len(installation) == 6:
-
-            return jsonify({"arrondissement": installation[1], "nom": installation[2], "ouvert": installation[3], "deblaye": installation[4], "Dernier_mise_a_jour": installation[5]})
+            return jsonify({"arrondissement": installation[1], "nom": installation[2], "ouvert": installation[3], "deblaye": installation[4], "Dernier_mise_a_jour": installation[5]}), 200
         else:
             return jsonify("Installation inexistante"), 404
 
@@ -109,11 +96,7 @@ def get_installations_json_2021():
     else:
         installations_json = []
         for installation in installations:
-            if len(installation) == 4:
-                data = {
-                    "arrondissement": installation[1], "nom": installation[2], "Dernier_mise_a_jour": installation[3]}
-
-            elif len(installation) == 5:
+            if len(installation) == 5:
                 data = {"arrondissement": installation[1], "nom": installation[2],
                         "type": installation[3], "adresse": installation[4]}
 
@@ -136,15 +119,7 @@ def get_installations_xml_2021():
 
         for installation in installations:
 
-            if len(installation) == 4:
-                ist = ElementTree.SubElement(ists, "installation")
-                ElementTree.SubElement(ist, "nom").text = installation[2]
-                ElementTree.SubElement(
-                    ist, "arrondissement").text = installation[1]
-                ElementTree.SubElement(
-                    ist, "dernier_mise_a_jour").text = installation[3]
-
-            elif len(installation) == 5:
+            if len(installation) == 5:
                 ist = ElementTree.SubElement(ists, "installation")
                 ElementTree.SubElement(ist, "nom").text = installation[2]
                 ElementTree.SubElement(
@@ -180,9 +155,7 @@ def get_installations_csv_2021():
                   "Type", "Adresse", "Ouvert", "Deblaye"]
         lignes = []
         for installation in installations:
-            if len(installation) == 4:
-                data = [installation[1], installation[2], installation[3]]
-            elif len(installation) == 5:
+            if len(installation) == 5:
                 data = [installation[1], installation[2],
                         " ", installation[3], installation[4]]
             elif len(installation) == 6:
@@ -200,7 +173,7 @@ def get_installations_csv_2021():
 @app.errorhandler(JsonValidationError)
 def validation_error(e):
     errors = [validation_error.message for validation_error in e.errors]
-    return jsonify({'error': e.message, 'errors': errors}), 400
+    return jsonify({'error': e.message, 'errors': errors}), 404
 
 
 @app.route('/api/installations/modifier_glissade/<nom>', methods=['PUT'])

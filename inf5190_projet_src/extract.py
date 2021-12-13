@@ -77,9 +77,9 @@ def create_table_patinoire(cursor):
         id integer primary key,
         arrondissement varchar(50),
         nom vachar(50),
-        mise_a_jour varchar(20),
         ouvert varchar(10),
-        deblaye varchar(10)
+        deblaye varchar(10),
+        mise_a_jour varchar(20)
     );
     '''
 
@@ -108,7 +108,7 @@ def extraction_patinoires():
 
     # Connection base de données
     connection = sqlite3.connect('db/database.db')
-    print("ddd")
+
     cursor = connection.cursor()
     create_table_patinoire(cursor)
     arrondissements = root.findall('arrondissement')
@@ -135,8 +135,8 @@ def extraction_patinoires():
                     name = name[4:lname]
                     annee = date_heure[5][0:4]
                     # Insertion base de données
-                    cursor.execute(("insert into patinoire(arrondissement,nom,mise_a_jour,ouvert,deblaye)"
-                                    "values(?, ?, ?, ?, ?)"), (arr, name, annee, ouvert, deblaye))
+                    cursor.execute(("insert into patinoire(arrondissement,nom,ouvert,deblaye,mise_a_jour)"
+                                    "values(?, ?, ?, ?, ?)"), (arr, name, ouvert, deblaye, annee))
                 nom = child.text
             elif child.tag == "condition":
                 for son in child:
@@ -201,10 +201,9 @@ def extraction_glissade():
         nom = glissade.find('nom').text
         ouvert = glissade.find('ouvert').text
         deblaye = glissade.find('deblaye').text
-        condition = glissade.find('condition').text
         ar = glissade.find('arrondissement')
         arrondissement = ar.find('nom_arr').text
-        date_maj = ar.find('date_maj').text.split(" ")[0][0:4]
+        date_maj = ar.find('date_maj').text
         rows.append({"NOM": nom, "ARRONDISSEMENT": arrondissement,
                     "OUVERT": ouvert, "DEBLAYE": deblaye, "DATE": date_maj})
     df = pd.DataFrame(rows, columns=cols)

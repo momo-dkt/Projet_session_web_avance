@@ -27,7 +27,7 @@ class Database:
         cursor = self.get_connection().cursor()
 
         cursor.execute(
-            "select * from lieu_baignade " +
+            "select  * from lieu_baignade " +
             "where arrondissement = ?", (arrondissement,)
         )
 
@@ -160,7 +160,8 @@ class Database:
         cursor.execute("delete from glissade where nom = ?", (nom,))
         connection.commit()
 
-    def modify_glissade(self, nom, arrondissement, nouveau_nom, ouvert, deblaye):
+    def modify_glissade(self, nom, arrondissement, nouveau_nom,
+                        ouvert, deblaye):
         connection = self.get_connection()
         cursor = connection.cursor()
         deblaye = deblaye.lower()

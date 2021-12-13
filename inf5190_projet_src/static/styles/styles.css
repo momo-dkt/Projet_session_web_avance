@@ -77,3 +77,17 @@ h1 {
   width: 400px;
   height: 30px;
 }
+
+tr {
+  text-align: center;
+}
+
+table {
+  border: 2px solid #555;
+  border-collapse: collapse;
+  margin-top: 0px;
+}
+
+tbody {
+  text-align: center;
+}

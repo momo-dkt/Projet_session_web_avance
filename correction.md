@@ -14,7 +14,7 @@
 
 ## 3) A3 :
 
-    La documentation a été faite sur la route /doc et peut être testée en appuyant sur le bouton REST services documentation de la barre de navigation.
+    La regénération du fichier doc.hmtl(contenant la documentation) peut être faite avec la commande (raml2html -i doc.raml -o templates/doc.html) .La documentation a été faite sur la route /doc et peut être testée en appuyant sur le bouton REST services documentation de la barre de navigation.
 
 ## 4) A4 :
 

@@ -1,0 +1,174 @@
+#%RAML 1.0
+title: Documentation of REST API for the website Info Installations
+mediaType: application/json
+    
+/api:
+  /installations:
+    /{arrondissement}:
+      get:
+        description: Gives all the installations of a district.
+        responses:
+          200:
+            body:
+              application/json:
+                example:
+                  {
+                    "name" : "string"
+                  }
+          400:
+            body:
+              application/json:
+                example:
+                  {
+                    "string":"Installation inexistante"
+                  }
+    /nom:
+      /{nom_installation}:         
+        get:
+          description: Gives all the details of an installation.
+          responses: 
+            200: 
+              body:
+                application/json:
+                  example:
+                    {   
+                      "Type": "Piscine",
+                      "arrondissement": "string",
+                      "nom": "string",
+                      "type": "string",
+                      "adresse": "string" 
+                    }
+            404:
+              body:
+                application/json:
+                  example:
+                    {
+                      "string":"The installation does not exist".
+                    }
+                    
+    /{json_2021}:
+      get:
+        description: Gives all the installations in json format where the last update has been done in 2021.
+        responses: 
+          200: 
+            body:
+              binary/octet-stream:
+              multipart/form-data:
+                properties:
+                  file:
+                    description: 2021.json
+                    required: true
+                    type: file
+                     
+          404:
+            body:
+              application/json:
+                example:
+                  {
+                    "string":"There is no installations where the last update were in 2021."
+                  }
+    /{xml_2021}:
+      get:
+        description: Gives all the installations in xml format where the last update has been done in 2021.
+        responses: 
+          200: 
+            body:
+              binary/octet-stream:
+              multipart/form-data:
+                properties:
+                  file:
+                    description: 2021.xml
+                    required: true
+                    type: file
+          404:
+            body:
+              application/json:
+                example:
+                  {
+                    "string": "There is no installations where the last update were in 2021."
+                  }  
+    /{csv_2021}:
+      get:
+        description: Gives all the installations in csv format where the last update has been done in 2021.
+        responses: 
+          200: 
+            body:
+              binary/octet-stream:
+              multipart/form-data:
+                properties:
+                  file:
+                    description: 2021.csv
+                    required: true
+                    type: file
+                     
+          404:
+            body:
+              application/json:
+                example:
+                  {
+                    "string":  "There is no installations where the last update were in 2021."
+                  }  
+    /modifier_glissade:
+      /{nom}:
+        put:
+          description: Modify a slip and return it.
+          body: 
+            application/json:
+              example:
+                {
+                  "arrondissement": "string",
+                  "nom": "string",
+                  "ouvert": "string",
+                  "deblaye": "string"
+            
+                }
+          responses: 
+            200:
+              body:
+                application/json:
+                  example:
+                    {
+                      "arrondissement": "string",
+                      "nom": "string",
+                      "ouvert": "string",
+                      "deblaye": "string", 
+                      "Last update": "string"
+                    }
+
+            404:
+              body:  
+                application/json:
+                  example:
+                    {
+                      "string":"The specified slip does not exist."
+                
+                    }                
+    /delete:
+      /{nom}:
+        delete:
+          description: Delete the slip through the name and send all the slips.
+          responses: 
+            200:
+              body:
+                application/json:
+                  example:
+                    {
+                      "arrondissement": "string",
+                      "nom": "string",
+                      "ouvert": "string",
+                      "deblaye": "string", 
+                      "Last update": "string"
+                    }
+
+            404:
+              body:  
+                application/json:
+                  example:
+                    {
+                      "string":"The specified slip does not exist."
+                
+                    }
+        
+
+
+   

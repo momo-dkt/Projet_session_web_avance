@@ -13,7 +13,7 @@ async function search(){
     }else{
 
       var output = "<h1>Installations</h1>";
-      output += "<table>";  
+      output += "<table><tbody>";  
     
       for (var i=0 in installations) {
         
@@ -22,7 +22,7 @@ async function search(){
       }
     
       console.log(installations);
-      output += "</table>";
+      output += "</tbody></table>";
       document.getElementById("installationsSeach").innerHTML=output;
       document.getElementById("list").innerHTML="";
    }
@@ -41,7 +41,7 @@ async function installation_details(){
       console.log(count)
       let output;
       if(count==5){
-        console.log("ENTER 5")
+        
         output="<h1>"+installationJson.nom+"</h1>";
         output+="<ul>";
         output+="<li>"+"Arrondissement: "+ installationJson.arrondissement+"</li>";
