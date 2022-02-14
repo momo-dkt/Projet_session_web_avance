@@ -46,7 +46,7 @@ async function installation_details(){
         output+="<ul>";
         output+="<li>"+"Arrondissement: "+ installationJson.arrondissement+"</li>";
         output+="<li>"+"Dernière mise à jour: "+ installationJson.Dernier_mise_a_jour+"</li>";
-        if(installationJson.deblaye==0){
+        if(installationJson.deblaye==0 ){
            output+="<li>"+"Deblayé:"+ " Non"+"</li>";
         }else if(installationJson.deblaye==1){
            output+="<li>"+"Deblayé:"+ " Oui"+"</li>";
@@ -61,18 +61,8 @@ async function installation_details(){
         document.getElementById("installationsSeach").innerHTML=output;
         document.getElementById("list").innerHTML="";
 
-     }else if(count==3){
-        console.log("ENTER 3")
-        output="<h1>"+installationJson.nom+"</h1>";
-        output+="<ul>";
-        output+="<li>"+"Arrondissement: "+ installationJson.arrondissement+"</li>";
-        output+="<li>"+"Dernière mise à jour: "+ installationJson.Dernier_mise_a_jour+"</li>";
-        output+="</ul>";
-        document.getElementById("installationsSeach").innerHTML=output;
-        document.getElementById("list").innerHTML="";
-
-     }else if(count==4){
-        console.log("ENTER 4")
+      }else if(count==4){
+        
         output="<h1>"+installationJson.nom+"</h1>";
         output+="<ul>";
         output+="<li>"+"Arrondissement: "+ installationJson.arrondissement+"</li>";
@@ -82,7 +72,7 @@ async function installation_details(){
         document.getElementById("installationsSeach").innerHTML=output;
         document.getElementById("list").innerHTML="";
 
-     } 
+      } 
     }
     
 

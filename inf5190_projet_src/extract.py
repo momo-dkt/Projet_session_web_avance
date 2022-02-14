@@ -45,7 +45,8 @@ def insert_lieu_baignade(cursor, data):
     data.to_csv(get_path("static/file/baignades.csv"),
                 index=False, encoding="UTF-8")
 
-    with open(get_path("static/file/baignades.csv"), 'r', encoding='utf8') as fin:
+    with open(get_path("static/file/baignades.csv"),
+              'r', encoding='utf8') as fin:
         dr = csv.DictReader(fin)
         data = [(i['ARRONDISSE'], i['NOM'], i['TYPE'],
                  i['ADRESSE']) for i in dr]
@@ -58,7 +59,7 @@ def insert_lieu_baignade(cursor, data):
 def extraction_piscine():
 
     import_file_piscine()
-    # Transformation en DataFrame avec le fichier csv
+    # Transformation en DataFrame avec csv
     data = pd.read_csv(get_path("static/file/piscines.csv"), encoding="UTF-8")
     data = data.drop(['ID_UEV', 'PROPRIETE', 'GESTION', 'POINT_X',
                      'POINT_Y', 'EQUIPEME', 'LONG', 'LAT'], axis=1)
@@ -129,14 +130,15 @@ def extraction_patinoires():
                 debut = False
             elif child.tag == "nom_pat":
                 if nom != child.text:
-                    arr = re.sub("\ |\n", "", nom_arr.text)
+                    arr = re.sub("\n", "", nom_arr.text)
                     name = re.sub("\n", "", nom)
                     lname = len(name)-3
                     name = name[4:lname]
                     annee = date_heure[5][0:4]
                     # Insertion base de données
                     cursor.execute(("insert into patinoire(arrondissement,nom,ouvert,deblaye,mise_a_jour)"
-                                    "values(?, ?, ?, ?, ?)"), (arr, name, ouvert, deblaye, annee))
+                                    "values(?, ?, ?, ?, ?)"),
+                                   (arr, name, ouvert, deblaye, annee))
                 nom = child.text
             elif child.tag == "condition":
                 for son in child:
@@ -152,6 +154,7 @@ def extraction_patinoires():
 
 
 def create_table_glissade(cursor):
+
     create_table = '''
     CREATE TABLE IF NOT EXISTS glissade(
         id integer primary key,
@@ -203,7 +206,7 @@ def extraction_glissade():
         deblaye = glissade.find('deblaye').text
         ar = glissade.find('arrondissement')
         arrondissement = ar.find('nom_arr').text
-        date_maj = ar.find('date_maj').text
+        date_maj = ar.find('date_maj').text[0:4]
         rows.append({"NOM": nom, "ARRONDISSEMENT": arrondissement,
                     "OUVERT": ouvert, "DEBLAYE": deblaye, "DATE": date_maj})
     df = pd.DataFrame(rows, columns=cols)
@@ -242,10 +245,9 @@ def initialisation():
 
 # Fonction main
 if (__name__ == "__main__"):
-    """
+
     if not os.path.isdir('db'):
         os.mkdir('db')
     extraction_piscine()
     extraction_patinoires()
     extraction_glissade()
-    """
